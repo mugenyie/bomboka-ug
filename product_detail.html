@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Product_detail Main style2</title>
+    <title>Product Details</title>
 
-	<meta charset="utf-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -11,85 +11,82 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
 
+    <!-- Less -->
+<!--     <link rel="stylesheet/less" type="text/css" href="less/style.less">
+    <link rel="stylesheet/less" type="text/css" href="less/responsive.less">
+    <script type="text/javascript" src="js/less/config.js"></script>
+    <script type="text/javascript" src="js/less/less.js"></script> -->
 
 </head>
-<body class="index-opt-6 catalog-product-view catalog-view_op1 catalog-view_op1_style2">
+<body class="index-opt-1 catalog-product-view catalog-view_default">
 
-	<div class="wrapper">
-
-		<!-- alert banner top -->
-        <div role="alert" class="qc-top-site qc-top-site1 alert  fade in" > 
-            <div class="container">
-                <button class="close" type="button"><span aria-hidden="true">×</span></button> 
-                <div class="description">
-                    <span class="title">Special Offer!</span>
-                    <span class="subtitle">Rewarding all customers with a 15% discount. </span>
-                    <span class="des">This offer is available from 9th December to 19th December 2015.</span>
-                    
-                </div>
-            </div>
-        </div><!-- alert banner top -->
+    <div class="wrapper">
 
         <!-- HEADER -->
-        <header class="site-header header-opt-6">
+        <header class="site-header header-opt-1">
 
+            <!-- header-top -->
             <div class="header-top">
                 <div class="container">
 
+                    <!-- hotline -->
                     <ul class="hotline nav-left" >
                         <li ><span><i class="fa fa-phone" aria-hidden="true"></i>+ 00 123 456 789</span></li>
                         <li ><span><i class="fa fa-envelope" aria-hidden="true"></i> Contact us today !</span></li>
-                        <li class="dropdown switcher  switcher-currency">
-                            <a data-toggle="dropdown" role="button" href="#" class="dropdown-toggle switcher-trigger"><span>USD</span> <i aria-hidden="true" class="fa fa-angle-down"></i></a>
-                            <ul class="dropdown-menu switcher-options ">
-                                <li class="switcher-option">
-                                    <a href="#">
-                                        <i class="fa fa-usd" aria-hidden="true"></i> USD
-                                    </a>
-                                </li>
-                                <li class="switcher-option">
-                                    <a href="#">
-                                        <i class="fa fa-eur" aria-hidden="true"></i> eur
-                                    </a>
-                                </li>
-                                <li class="switcher-option">
-                                    <a href="#">
-                                        <i class="fa fa-gbp" aria-hidden="true"></i> gbp
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="dropdown switcher  switcher-language">
-                            <a data-toggle="dropdown" role="button" href="#" class="dropdown-toggle switcher-trigger" aria-expanded="false">
-                                <img class="switcher-flag" alt="flag" src="images/flags/flag_english.png">
-                                <span>English</span> 
-                                <i aria-hidden="true" class="fa fa-angle-down"></i>
-                            </a>
-                            <ul class="dropdown-menu switcher-options ">
-                                <li class="switcher-option">
-                                    <a href="#">
-                                        <img class="switcher-flag" alt="flag" src="images/flags/flag_english.png">English
-                                    </a>
-                                </li>
-                                <li class="switcher-option">
-                                    <a href="#">
-                                        <img class="switcher-flag" alt="flag" src="images/flags/flag_french.png">French
-                                    </a>
-                                </li>
-                                <li class="switcher-option">
-                                    <a href="#">
-                                        <img class="switcher-flag" alt="flag" src="images/flags/flag_germany.png">Germany
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
+                    </ul><!-- hotline -->
 
+                    <!-- heder links -->
                     <ul class="links nav-right">
+                        <li ><a href="">Login/Register</a></li>
                         <li class="dropdown setting">
-                            <a data-toggle="dropdown" role="button" href="#" class="dropdown-toggle "><span>My Account</span> <i aria-hidden="true" class="fa fa-angle-down"></i></a>
+                            <a data-toggle="dropdown" role="button" href="#" class="dropdown-toggle "><span>Settings</span> <i aria-hidden="true" class="fa fa-angle-down"></i></a>
                             <div class="dropdown-menu  ">
-                               
+                                <div class="switcher  switcher-language">
+                                    <strong class="title">Select language</strong>
+                                    <ul class="switcher-options ">
+                                        <li class="switcher-option">
+                                            <a href="#">
+                                                <img class="switcher-flag" alt="flag_french" src="images/flags/flag_french.png">
+                                            </a>
+                                        </li>
+                                        <li class="switcher-option">
+                                            <a href="#">
+                                                <img class="switcher-flag" alt="flag_germany" src="images/flags/flag_germany.png">
+                                            </a>
+                                        </li>
+                                        <li class="switcher-option">
+                                            <a href="#">
+                                                <img class="switcher-flag" alt="flag" src="images/flags/flag_english.png">
+                                            </a>
+                                        </li>
+                                        <li class="switcher-option switcher-active">
+                                            <a href="#">
+                                                <img class="switcher-flag" alt="flag" src="images/flags/flag_spain.png">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="switcher  switcher-currency">
+                                    <strong class="title">SELECT CURRENCIES</strong>
+                                    <ul class="switcher-options ">
+                                        <li class="switcher-option">
+                                            <a href="#">
+                                                <i class="fa fa-usd" aria-hidden="true"></i>
+                                            </a>
+                                        </li>
+                                        <li class="switcher-option switcher-active">
+                                            <a href="#">
+                                                <i class="fa fa-eur" aria-hidden="true"></i>
+                                            </a>
+                                        </li>
+                                        <li class="switcher-option">
+                                            <a href="#">
+                                                <i class="fa fa-gbp" aria-hidden="true"></i>
+                                            </a>
+                                        </li>
+                                       
+                                    </ul>
+                                </div>
                                 <ul class="account">
                                     <li><a href="">Wishlist</a></li>
                                     <li><a href="">My Account</a></li>
@@ -99,38 +96,68 @@
                                 </ul>
                             </div>
                         </li>
-                        
-                        <li><a href="" >Services</a></li>
-                        <li><a href="">Support </a></li>
-                    </ul>
+                        <li><a href="" >Support</a></li>
+                        <li><a href="">Services </a></li>
+                    </ul><!-- heder links -->
 
                 </div>
-            </div>
+            </div> <!-- header-top -->
 
+            <!-- header-content -->
             <div class="header-content">
                 <div class="container">
 
                     <div class="row">
 
                         <div class="col-md-3 nav-left">
-
                             <!-- logo -->
                             <strong class="logo">
-                                <a href=""><img src="images/media/index6/logo.png" alt="logo"></a>
-                            </strong>
+                                <a href=""><img src="images/media/index1/logo.png" alt="logo"></a>
+                            </strong><!-- logo -->
+                        </div>
+
+                        <div class="col-md-6 nav-mind">
+
+                            <!-- block search -->
+                            <div class="block-search">
+                                <div class="block-title">
+                                    <span>Search</span>
+                                </div>
+                                <div class="block-content">
+                                    <div class="categori-search  ">
+                                        <select data-placeholder="All Categories" class="categori-search-option">
+                                            <option>All Categories</option>
+                                            <option>Fashion</option>
+                                            <option>Tops Blouses</option>
+                                            <option>Clothing</option>
+                                            <option>Furniture</option>
+                                            <option>Bathtime Goods</option>
+                                            <option>Shower Curtains</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-search">
+                                        <form>
+                                            <div class="box-group">
+                                                <input type="text" class="form-control" placeholder="Search here...">
+                                                <button class="btn btn-search" type="button"><span>search</span></button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div><!-- block search -->
 
                         </div>
 
-                        <div class="nav-right">  
+                        <div class="col-md-3 nav-right">
 
-                            <!-- block mini cart -->  
+                            <!-- block mini cart -->
                             <div class="block-minicart dropdown">
                                 <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown">
                                     <span class="cart-icon"></span>
+                                    <span class="cart-text">cart</span>
                                     <span class="counter qty">
-                                        <span class="cart-text">Shopping Cart</span>
                                         <span class="counter-number">6</span>
-                                        <span class="counter-label">6 <span>Items</span></span>
+                                        <span class="counter-label">6 <span>Item(s)</span></span>
                                         <span class="counter-price">$75.00</span>
                                     </span>
                                 </a>
@@ -201,52 +228,27 @@
                                         </div>
                                     </form>
                                 </div>
-                            </div>
+                            </div><!-- block mini cart -->
+
+                            <!-- link  wishlish-->
+                            <a href="" class="link-wishlist"><span>wishlish</span></a>
+                            <!-- link  wishlish-->
 
                         </div>
 
-                        <div class="nav-mind">   
-
-                            <!-- block search -->
-                            <div class="block-search">
-                                <div class="block-title">
-                                    <span>Search</span>
-                                </div>
-                                <div class="block-content">
-                                    <div class="categori-search  ">
-                                        <select data-placeholder="All Categories" class="categori-search-option">
-                                            <option>All Categories</option>
-                                            <option>Fashion</option>
-                                            <option>Tops Blouses</option>
-                                            <option>Clothing</option>
-                                            <option>Furniture</option>
-                                            <option>Bathtime Goods</option>
-                                            <option>Shower Curtains</option>
-                                        </select>
-                                    </div>
-                                    <div class="form-search">
-                                        <form>
-                                            <div class="box-group">
-                                                <input type="text" class="form-control" placeholder="i'm Searching for...">
-                                                <button class="btn btn-search" type="button"><span>search</span></button>
-                                            </div>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                    </div>
+                    </div>                    
 
                 </div>
-            </div>
+            </div><!-- header-content -->
 
+            <!-- header-nav -->
             <div class="header-nav mid-header">
                 <div class="container">
                     <div class="box-header-nav">
 
                         <span data-action="toggle-nav-cat" class="nav-toggle-menu nav-toggle-cat"><span>Categories</span><i aria-hidden="true" class="fa fa-bars"></i></span>
 
+                        <!-- block categori -->
                         <div class="block-nav-categori">
                             <div class="block-title">
                                 <span>Categories</span>
@@ -505,24 +507,7 @@
                                             Sport & Outdoors
                                         </a>
                                     </li>
-                                    <li>
-                                        <a href="">
-                                            <span class="icon"><img src="images/icon/index1/nav-cat9.png" alt="nav-cat"></span>
-                                            Computer & Networking
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="">
-                                            <span class="icon"><img src="images/icon/index1/nav-cat10.png" alt="nav-cat"></span>
-                                            Flashlights & Lamps
-                                        </a>
-                                    </li>
-                                    <li class="cat-link-orther">
-                                        <a href="">
-                                            <span class="icon"><img src="images/icon/index1/nav-cat10.png" alt="nav-cat"></span>
-                                            Sport & Outdoors
-                                        </a>
-                                    </li>
+                                    
                                     <li class="cat-link-orther">
                                         <a href="">
                                             <span class="icon"><img src="images/icon/index1/nav-cat9.png" alt="nav-cat"></span>
@@ -543,7 +528,7 @@
                                 </div>
                             </div>
                             
-                        </div>
+                        </div><!-- block categori -->
 
                         <!-- menu -->
                         <div class="block-nav-menu">
@@ -633,7 +618,7 @@
                                 </li>
                                
                                 <li class="parent parent-megamenu">
-                                    <a href="">Electronics  <span class="label-menu">New</span></a>
+                                    <a href="">New arrivals   </a>
                                     <span class="toggle-submenu"></span>
                                     <div class="megamenu">
                                         <div class="horizontal-menu">
@@ -641,7 +626,8 @@
                                                 <li class="col-md-3">
                                                     
                                                     <div class="img-categori">
-                                                        <a href=""><img alt="img" src="images/media/index1/img-categori1.jpg"></a>
+                                                        <a href=""><img alt="categori1"
+                                                         src="images/media/index1/img-categori1.jpg"></a>
                                                     </div>
                                                     <strong class="title"><a href=""><span>Men’s </span></a></strong>
                                                     <ul class="list-submenu">
@@ -654,7 +640,7 @@
                                                 <li class="col-md-3">
                                                    
                                                     <div class="img-categori">
-                                                        <a href=""><img  alt="img"  src="images/media/index1/img-categori2.jpg"></a>
+                                                        <a href=""><img alt="categori1" src="images/media/index1/img-categori2.jpg"></a>
                                                     </div>
                                                     <strong class="title"><a href=""><span>woMen’s </span></a></strong>
                                                     <ul class="list-submenu">
@@ -667,7 +653,7 @@
                                                 <li class="col-md-3">
                                                     
                                                     <div class="img-categori">
-                                                        <a href=""><img alt="img"  src="images/media/index1/img-categori3.jpg"></a>
+                                                        <a href=""><img alt="categori1" src="images/media/index1/img-categori3.jpg"></a>
                                                     </div>
                                                     <strong class="title"><a href=""> <span>kid’s</span></a></strong>
                                                     <ul class="list-submenu">
@@ -680,7 +666,7 @@
                                                 <li class="col-md-3">
                                                     
                                                     <div class="img-categori">
-                                                        <a href=""><img alt="img"  src="images/media/index1/img-categori4.jpg"></a>
+                                                        <a href=""><img alt="categori1" src="images/media/index1/img-categori4.jpg"></a>
                                                     </div>
                                                     <strong class="title"><a href=""><span>trending</span> </a></strong>
                                                     <ul class="list-submenu">
@@ -695,7 +681,7 @@
                                     </div>
                                 </li>
                                 <li class="parent parent-megamenu">
-                                    <a href="Contact.html">Digital </a>
+                                    <a href="Contact.html">Sale products</a>
                                     <span class="toggle-submenu"></span>
                                     <div class="megamenu">
                                         <div class="vertical-menu">
@@ -753,7 +739,8 @@
                                                             <a href="#">Burberry Pink &amp; black</a>
                                                         </strong>
                                                         <div class="product-item-qty">
-                                                            <span class="label">Quantity:</span ><span class="number">6</span>
+                                                            <span class="label">Quantity:</span >
+                                                            <span class="number">6</span>
                                                         </div>
                                                         <div class="product-item-price">
                                                             <span class="price"> $17.96</span>
@@ -813,7 +800,7 @@
                                 <div class="form-search">
                                     <form>
                                         <div class="box-group">
-                                            <input type="text" class="form-control" placeholder="i'm Searching for...">
+                                            <input type="text" class="form-control" placeholder="Search here...">
                                             <button class="btn btn-search" type="button"><span>search</span></button>
                                         </div>
                                     </form>
@@ -882,971 +869,585 @@
                         
                     </div>
                 </div>
-            </div>
+            </div><!-- header-nav -->
 
-        </header><!-- end HEADER -->       	
+        </header><!-- end HEADER -->
 
-		<!-- MAIN -->
-		<main class="site-main">
+        <!-- MAIN -->
+        <main class="site-main">
 
-            <div class="columns container">
-                <!-- Block  Breadcrumb-->
-                        
-                <ol class="breadcrumb no-hide">
-                    <li><a href="#">Home    </a></li>
-                    <li><a href="#">Electronics    </a></li>
-                    <li class="active">Machine Pro</li>
-                </ol><!-- Block  Breadcrumb-->
+            <!-- breadcrumb -->
+            <div class="container breadcrumb-page">
+                <ol class="breadcrumb">
+                    <li><a href="#">Home </a></li>
+                    <li><a href="#">Electronics</a></li>
+                    <li class="active">Washing Machine Pro</li>
+                </ol>
+            </div> <!-- breadcrumb -->
 
+            <div class="container">
                 <div class="row">
-
                     
+                    <div class="col-sm-7 col-md-6 col-lg-5">
 
-                    <!-- Main Content -->
-                    <div class="col-md-9 col-md-push-3  col-main">
+                        <div class="product-media media-horizontal">
 
-                        <div class="row">
-                    
-                            <div class="col-sm-6 col-md-6 col-lg-6">
+                            <div class="image_preview_container images-large">
 
-                                <div class="product-media media-horizontal">
+                                <img id="img_zoom" data-zoom-image="images/media/qv_large_1.jpg" src="images/media/qv_img_1.jpg" alt="">
 
-                                    <div class="image_preview_container images-large">
+                                <button class="btn-zoom open_qv"><span>zoom</span></button>
 
-                                        <img id="img_zoom" data-zoom-image="images/media/detail/thumb-lag1.jpg" src="images/media/detail/thumb-img1.jpg" alt="">
+                            </div>
+                            
+                            <div class="product_preview images-small">
 
-                                        <button class="btn-zoom open_qv"><span>zoom</span></button>
-
-                                    </div>
+                                <div class="owl-carousel thumbnails_carousel" id="thumbnails"  data-nav="true" data-dots="false" data-margin="15" data-responsive='{"0":{"items":3},"480":{"items":4},"600":{"items":5},"768":{"items":3}}'>
                                     
-                                    <div class="product_preview images-small">
+                                    <a href="#" data-image="images/media/qv_img_1.jpg" data-zoom-image="images/media/qv_large_1.jpg">
 
-                                        <div class="owl-carousel thumbnails_carousel" id="thumbnails"  data-nav="true" data-dots="false" data-margin="10" data-responsive='{"0":{"items":3},"480":{"items":4},"600":{"items":5},"768":{"items":3}}'>
-                                            
-                                            <a href="#" data-image="images/media/detail/thumb-img1.jpg" data-zoom-image="images/media/detail/thumb-lag1.jpg">
+                                        <img src="images/media/qv_thumb_1.jpg" data-large-image="images/media/qv_img_1.jpg" alt="">
 
-                                                <img src="images/media/detail/thumb1.jpg" data-large-image="images/media/detail/thumb-img1.jpg" alt="">
+                                    </a>
 
-                                            </a>
+                                    <a href="#" data-image="images/media/qv_img_2.jpg" data-zoom-image="images/media/qv_large_2.jpg">
 
-                                            <a href="#" data-image="images/media/detail/thumb-img2.jpg" data-zoom-image="images/media/detail/thumb-lag2.jpg">
+                                        <img src="images/media/qv_thumb_2.jpg" data-large-image="images/media/qv_img_2.jpg" alt="">
 
-                                                <img src="images/media/detail/thumb2.jpg" data-large-image="images/media/detail/thumb-img2.jpg" alt="">
+                                    </a>
 
-                                            </a>
-                                            <a href="#" data-image="images/media/detail/thumb-img3.jpg" data-zoom-image="images/media/detail/thumb-lag3.jpg">
+                                    <a href="#" data-image="images/media/qv_img_3.jpg" data-zoom-image="images/media/qv_large_3.jpg">
 
-                                                <img src="images/media/detail/thumb3.jpg" data-large-image="images/media/detail/thumb-img3.jpg" alt="">
+                                        <img src="images/media/qv_thumb_3.jpg" data-large-image="images/media/qv_img_3.jpg" alt="">
 
-                                            </a>
-                                            <a href="#" data-image="images/media/detail/thumb-img1.jpg" data-zoom-image="images/media/detail/thumb-lag1.jpg">
+                                    </a>
 
-                                                <img src="images/media/detail/thumb1.jpg" data-large-image="images/media/detail/thumb-img1.jpg" alt="">
+                                    <a href="#" data-image="images/media/qv_img_3.jpg" data-zoom-image="images/media/qv_large_3.jpg">
 
-                                            </a>
+                                        <img src="images/media/qv_thumb_3.jpg" data-large-image="images/media/qv_img_3.jpg" alt="">
 
-                                        </div><!--/ .owl-carousel-->
+                                    </a>
 
-                                    </div><!--/ .product_preview-->
+                                </div><!--/ .owl-carousel-->
 
-                                </div><!-- image product -->
+                            </div><!--/ .product_preview-->
+
+                        </div><!-- image product -->
+                    </div>
+
+                    <div class="col-sm-5 col-md-6 col-lg-7"> 
+
+                        <div class="product-info-main">
+
+                            <h1 class="page-title">
+                                Washing Machine Pro
+                            </h1>
+
+                            <div class="product-reviews-summary">
+                                
+                                <div class="rating-action">
+                                    <a href="">Write Your Review</a>
+                                </div>
                             </div>
 
-                            <div class="col-sm-6 col-md-6 col-lg-6"> 
+                            <div class="product-info-price">
+                                <div class="price-box">
+                                    <span class="price">$20.00</span>
+                                    
+                                </div>
 
-                                <div class="product-info-main">
+                                <div class="product-info-stock-sku">
+                                    <div class="stock available">
+                                        <span class="label">Avaiability: </span><i class="fa fa-check-square-o" aria-hidden="true"></i> In Stock
+                                    </div>
+                                </div>
+                            </div>
 
-                                    <h1 class="page-title">
-                                        Advanced Dark Blue Coast
-                                    </h1>
-                                    <div class="product-reviews-summary">
-                                        <div class="rating-summary">
-                                            <div class="rating-result" title="70%">
-                                                <span style="width:70%">
-                                                    <span><span>70</span>% of <span>100</span></span>
-                                                </span>
+                            <div class="product-overview">
+                                <div class="overview-label">Quick overview</div>
+                                <div class="overview-content">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+                                </div>
+                            </div>
+
+                            <div class="product-add-form">
+                                <form>
+
+                                    <div class="product-options-wrapper">
+
+                                        <div class="form-group">
+                                            <label for="forColor">Color <sup>*</sup> </label>
+                                            <div class="control">
+                                                <select id="forColor" class="form-control">
+                                                    <option>---Select Option---</option>
+                                                    <option>White</option>
+                                                    <option>Red</option>
+                                                    <option>Blue</option>
+                                                    <option>Green</option>
+                                                </select>
                                             </div>
                                         </div>
-                                        <div class="reviews-actions">
-                                            <a href="" class="action view">Based  on 3 ratings</a>
-                                            <a href="" class="action add"><img alt="img" src="images/icon/write.png">&#160;&#160;write a review</a>
-                                        </div>
-                                    </div>
-                                   
-                                    <div class="product-info-price">
-                                        <div class="price-box">
-                                            <span class="price">$38.95   </span>
-                                            <span class="old-price">$52.00</span>
-                                            <span class="label-sale">-30%</span>
-                                        </div>
-                                    </div>  
-                                    <div class="product-code">
-                                        Item Code: #453217907 :  
-                                    </div> 
-                                    <div class="product-info-stock">
-                                        <div class="stock available">
-                                            <span class="label">Availability: </span>In stock
-                                        </div>
-                                    </div>
-                                    <div class="product-condition">
-                                        Condition: New
-                                    </div>
-                                    <div class="product-overview">
-                                        <div class="overview-content">
-                                            Vestibulum eu odio. Suspendisse potenti. Morbi mollis tellus ac sapien. Praesent egestas tristique nibh. Nullam dictum felis eu pede mollis pretium. Fusce egestas elit eget lorem. 
-                                        </div>
-                                    </div>
 
-                                    <div class="product-add-form">
-                                        <p>Available Options:</p>
-                                        <form>
-
-                                            <div class="product-options-wrapper">
-
-                                                <div class="swatch-opt">
-                                                    <div class="swatch-attribute color" >
-                                                        <span class="swatch-attribute-label">Color:</span>
-                                                        <div class="swatch-attribute-options clearfix">
-                                                            <div class="swatch-option color selected" style="background-color: #0c3b90 ;"></div>
-                                                            <div class="swatch-option color" style="background-color: #036c5d ;"></div>
-                                                            <div class="swatch-option color" style="background-color: #5f2363 ;"></div>
-                                                            <div class="swatch-option color " style="background-color: #ffc000 ;"></div>
-                                                            <div class="swatch-option color" style="background-color: #36a93c ;"></div>
-                                                            <div class="swatch-option color" style="background-color: #ff0000 ;"></div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="form-qty">
-                                                    <label class="label">Qty: </label>
-                                                    <div class="control">
-                                                        <input type="text" class="form-control input-qty" value='1' id="qty1" name="qty1"  maxlength="12"  minlength="1">
-                                                        <button class="btn-number  qtyminus" data-type="minus" data-field="qty1"><span>-</span></button>
-                                                        <button class="btn-number  qtyplus" data-type="plus" data-field="qty1"><span>+</span></button>
-                                                    </div>
-                                                </div>
-                                                <div class="form-configurable">
-                                                    <label for="forSize" class="label">Size: </label>
-                                                    <div class="control">
-                                                        <select  id="forSize" class="form-control attribute-select">
-                                                            <option value="1">XXXL</option>
-                                                            <option value="4">X</option>
-                                                            <option value="5">L</option>
-                                                        </select>
-                                                    </div>
-                                                    <a href="" class="size-chart">Size chart</a>
-                                                </div>
+                                        <div class="form-group">
+                                            <label for="forSize">Size <sup>*</sup></label>
+                                            <div class="control">
+                                                <select id="forSize" class="form-control">
+                                                    <option>---Select Option---</option>
+                                                    <option>39</option>
+                                                    <option>30</option>
+                                                    <option>32</option>
+                                                    <option>36</option>
+                                                </select>
                                             </div>
+                                        </div>
 
-                                            
-
-                                            <div class="product-options-bottom clearfix">
-                                                
-                                                <div class="actions">
-                                                    
-                                                    <button type="submit" title="Add to Cart" class="action btn-cart">
-                                                        <span>Add to Cart</span>
-                                                    </button>
-                                                    <div class="product-addto-links">
-
-                                                        <a href="#" class="action btn-wishlist" title="Wish List">
-                                                            <span>Wishlist</span>
-                                                        </a>
-                                                        <a href="#" class="action btn-compare" title="Compare">
-                                                            <span>Compare</span>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                               
-                                            </div>
-
-                                        </form>
                                     </div>
-                                    <div class="product-addto-links-second">
-                                        <a href="" class="action action-print">Print</a>
-                                        <a href="" class="action action-friend">Send to a friend</a>
-                                    </div>
+
                                     <div class="share">
                                         <img src="images/media/index1/share.png" alt="share">
                                     </div>
-                                </div><!-- detail- product -->
 
-                            </div><!-- Main detail -->
-
-                        </div>
-
-                        <!-- product tab info -->
-                    
-                        <div class="product-info-detailed ">
-
-                            <!-- Nav tabs -->
-                            <ul class="nav nav-pills" role="tablist">
-                                <li role="presentation" class="active"><a href="#description"  role="tab" data-toggle="tab">Product Details   </a></li>
-                                <li role="presentation"><a href="#tags"  role="tab" data-toggle="tab">information </a></li>
-                                <li role="presentation"><a href="#reviews" role="tab" data-toggle="tab">reviews</a></li>
-                                <li role="presentation"><a href="#additional"  role="tab" data-toggle="tab">Extra Tabs</a></li>
-                                <li role="presentation"><a href="#tab-cust" role="tab" data-toggle="tab">Guarantees</a></li>
-                            </ul>
-
-                            <!-- Tab panes -->
-                            <div class="tab-content">
-                                <div role="tabpanel" class="tab-pane active" id="description">
-                                    <div class="block-title">Product Details</div>
-                                    <div class="block-content">
-                                        <p>Morbi mollis tellus ac sapien. Nunc nec neque. Praesent nec nisl a purus blandit viverra. Nunc nec neque. Pellentesque auctor neque nec urna.</p>
-                                        <br>
-                                        <p>Curabitur suscipit suscipit tellus. Cras id dui. Nam ipsum risus, rutrum vitae, vestibulum eu, molestie vel, lacus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Maecenas vestibulum mollis diam.</p>
-                                        <br>
-                                        <p>Vestibulum facilisis, purus nec pulvinar iaculis, ligula mi congue nunc, vitae euismod ligula urna in dolor. Sed lectus. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Nam at tortor in tellus interdum sagittis. Pellentesque egestas, neque sit amet convallis pulvinar, justo nulla eleifend augue, ac auctor orci leo non est.</p>
-                                        <br>
-                                        <p>Morbi mollis tellus ac sapien. Nunc nec neque. Praesent nec nisl a purus blandit viverra. Nunc nec neque. Pellentesque auctor neque nec urna.</p>
-                                   
-                                    </div>
-                                </div>
-                                <div role="tabpanel" class="tab-pane" id="tags">
-                                    <div class="block-title">information</div>
-                                    <div class="block-content">
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+                                    <div class="product-options-bottom clearfix">
+                                        <div class="form-group form-qty">
+                                            <label for="forSize">Qty </label>
+                                            <div class="control">
+                                                <input type="text" class="form-control input-qty" value='1' id="qty1" name="qty1"  maxlength="12"  minlength="1">
+                                                <button class="btn-number  qtyminus" data-type="minus" data-field="qty1">-</button>
+                                                <button class="btn-number  qtyplus" data-type="plus" data-field="qty1">+</button>
+                                            </div>
+                                        </div>
+                                        <div class="actions">
+                                            
+                                                <button type="submit" title="Add to Cart" class="action btn-cart">
+                                                    <span>Add to Cart</span>
+                                                </button>
+                                            
+                                                <a href="#" class="action btn-wishlist" title="Wish List">
+                                                    <span>Wish List</span>
+                                                </a>
+                                                <a href="#" class="action btn-compare" title="Compare">
+                                                    <span>Compare</span>
+                                                </a>
+                                            
+                                        </div>
                                        
-                                    
                                     </div>
-                                </div>
-                                <div role="tabpanel" class="tab-pane" id="reviews">
-                                    <div class="block-title">reviews</div>
-                                    <div class="block-content">
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
-                                       
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
-                                    </div>
-                                </div>
-                                <div role="tabpanel" class="tab-pane" id="additional">
-                                    <div class="block-title">Extra Tabs</div>
-                                    <div class="block-content">
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
-                                       
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
-                                    </div>
-                                </div>
-                                <div role="tabpanel" class="tab-pane" id="tab-cust">
-                                    <div class="block-title">Guarantees</div>
-                                    <div class="block-content">
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
-                                        
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also Aldus PageMaker including versions of Lorem Ipsum</p>
-                                   
-                                    </div>
-                                </div>
-                            </div>
-                        </div>  
-                        <!-- product tab info -->
 
-                        <!-- block-related product -->
-                        <div class="block-related ">
-                            <div class="block-title">
-                                <strong class="title">RELATED products</strong>
+                                </form>
                             </div>
-                            <div class="block-content ">
-                                <ol class="product-items owl-carousel " data-nav="true" data-dots="false" data-margin="30" data-responsive='{"0":{"items":1},"480":{"items":2},"600":{"items":3},"992":{"items":3}}'>
-                                    
-                                    
-                                    <li class="product-item product-item-opt-2">
-                                        <div class="product-item-info">
-                                            <div class="product-item-photo">
-                                                <a href="" class="product-item-img"><img src="images/media/detail/related2-1.jpg" alt="product name"></a>
-                                                <div class="product-item-actions">
-                                                    <a href="" class="btn btn-wishlist"><span>wishlist</span></a>
-                                                    <a href="" class="btn btn-compare"><span>compare</span></a>
-                                                    <a href="" class="btn btn-quickview"><span>quickview</span></a>
-                                                </div>
-                                                <button class="btn btn-cart" type="button"><span>Add to Cart</span></button>
-                                              
-                                            </div>
-                                            <div class="product-item-detail">
-                                                <strong class="product-item-name"><a href="">Brown Short 100% Cotton</a></strong>
-                                                <div class="clearfix">
-                                                    <div class="product-item-price">
-                                                        <span class="price">$45.00</span>
-                                                        <span class="old-price">$52.00</span>
-                                                    </div>
-                                                    <div class="product-reviews-summary">
-                                                        <div class="rating-summary">
-                                                            <div class="rating-result" title="70%">
-                                                                <span style="width:70%">
-                                                                    <span><span>70</span>% of <span>100</span></span>
-                                                                </span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    
-                                    <li class="product-item product-item-opt-2">
-                                        <div class="product-item-info">
-                                            <div class="product-item-photo">
-                                                <a href="" class="product-item-img"><img src="images/media/detail/related2-2.jpg" alt="product name"></a>
-                                                <div class="product-item-actions">
-                                                    <a href="" class="btn btn-wishlist"><span>wishlist</span></a>
-                                                    <a href="" class="btn btn-compare"><span>compare</span></a>
-                                                    <a href="" class="btn btn-quickview"><span>quickview</span></a>
-                                                </div>
-                                                <button class="btn btn-cart" type="button"><span>Add to Cart</span></button>
-                                                
-                                            </div>
-                                            <div class="product-item-detail">
-                                                <strong class="product-item-name"><a href="">Summer T-Shirt</a></strong>
-                                                <div class="clearfix">
-                                                    <div class="product-item-price">
-                                                        <span class="price">$45.00</span>
-                                                        <span class="old-price">$52.00</span>
-                                                    </div>
-                                                    <div class="product-reviews-summary">
-                                                        <div class="rating-summary">
-                                                            <div class="rating-result" title="70%">
-                                                                <span style="width:70%">
-                                                                    <span><span>70</span>% of <span>100</span></span>
-                                                                </span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="product-item product-item-opt-2">
-                                        <div class="product-item-info">
-                                            <div class="product-item-photo">
-                                                <a href="" class="product-item-img"><img src="images/media/detail/related2-3.jpg" alt="product name"></a>
-                                                <div class="product-item-actions">
-                                                    <a href="" class="btn btn-wishlist"><span>wishlist</span></a>
-                                                    <a href="" class="btn btn-compare"><span>compare</span></a>
-                                                    <a href="" class="btn btn-quickview"><span>quickview</span></a>
-                                                </div>
-                                                <button class="btn btn-cart" type="button"><span>Add to Cart</span></button>
-                                               
-                                            </div>
-                                            <div class="product-item-detail">
-                                                <strong class="product-item-name"><a href="">Blue Short 50% Cotton</a></strong>
-                                                <div class="clearfix">
-                                                    <div class="product-item-price">
-                                                        <span class="price">$45.00</span>
-                                                        <span class="old-price">$52.00</span>
-                                                    </div>
-                                                    <div class="product-reviews-summary">
-                                                        <div class="rating-summary">
-                                                            <div class="rating-result" title="70%">
-                                                                <span style="width:70%">
-                                                                    <span><span>70</span>% of <span>100</span></span>
-                                                                </span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="product-item product-item-opt-2">
-                                        <div class="product-item-info">
-                                            <div class="product-item-photo">
-                                                <a href="" class="product-item-img"><img src="images/media/detail/related2-1.jpg" alt="product name"></a>
-                                                <div class="product-item-actions">
-                                                    <a href="" class="btn btn-wishlist"><span>wishlist</span></a>
-                                                    <a href="" class="btn btn-compare"><span>compare</span></a>
-                                                    <a href="" class="btn btn-quickview"><span>quickview</span></a>
-                                                </div>
-                                                <button class="btn btn-cart" type="button"><span>Add to Cart</span></button>
-                                                
-                                            </div>
-                                            <div class="product-item-detail">
-                                                <strong class="product-item-name"><a href="">Brown Short 100% Cotton</a></strong>
-                                                <div class="clearfix">
-                                                    <div class="product-item-price">
-                                                        <span class="price">$45.00</span>
-                                                        <span class="old-price">$52.00</span>
-                                                    </div>
-                                                    <div class="product-reviews-summary">
-                                                        <div class="rating-summary">
-                                                            <div class="rating-result" title="70%">
-                                                                <span style="width:70%">
-                                                                    <span><span>70</span>% of <span>100</span></span>
-                                                                </span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                
-                                </ol>
-                            </div>
-                        </div><!-- block-related product -->
 
-                        <!-- block-Upsell Products -->
-                        <div class="block-upsell ">
-                            <div class="block-title">
-                                <strong class="title">You might also like</strong>
-                            </div>
-                            <div class="block-content ">
-                                <ol class="product-items owl-carousel " data-nav="true" data-dots="false" data-margin="30" data-responsive='{"0":{"items":1},"480":{"items":2},"600":{"items":3},"992":{"items":3}}'>
-                                    
-                                    
-                                    <li class="product-item product-item-opt-2">
-                                        <div class="product-item-info">
-                                            <div class="product-item-photo">
-                                                <a href="" class="product-item-img"><img src="images/media/detail/Upsell2-1.jpg" alt="product name"></a>
-                                                <div class="product-item-actions">
-                                                    <a href="" class="btn btn-wishlist"><span>wishlist</span></a>
-                                                    <a href="" class="btn btn-compare"><span>compare</span></a>
-                                                    <a href="" class="btn btn-quickview"><span>quickview</span></a>
-                                                </div>
-                                                <button class="btn btn-cart" type="button"><span>Add to Cart</span></button>
-                                            </div>
-                                            <div class="product-item-detail">
-                                                <strong class="product-item-name"><a href="">Leather Swiss Watch</a></strong>
-                                                <div class="clearfix">
-                                                    <div class="product-item-price">
-                                                        <span class="price">$45.00</span>
-                                                        <span class="old-price">$52.00</span>
-                                                    </div>
-                                                    <div class="product-reviews-summary">
-                                                        <div class="rating-summary">
-                                                            <div class="rating-result" title="70%">
-                                                                <span style="width:70%">
-                                                                    <span><span>70</span>% of <span>100</span></span>
-                                                                </span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    
-                                    <li class="product-item product-item-opt-2">
-                                        <div class="product-item-info">
-                                            <div class="product-item-photo">
-                                                <a href="" class="product-item-img"><img src="images/media/detail/Upsell2-2.jpg" alt="product name"></a>
-                                                <div class="product-item-actions">
-                                                    <a href="" class="btn btn-wishlist"><span>wishlist</span></a>
-                                                    <a href="" class="btn btn-compare"><span>compare</span></a>
-                                                    <a href="" class="btn btn-quickview"><span>quickview</span></a>
-                                                </div>
-                                                <button class="btn btn-cart" type="button"><span>Add to Cart</span></button>
-                                                
-                                            </div>
-                                            <div class="product-item-detail">
-                                                <strong class="product-item-name"><a href="">Sport T-Shirt For Men</a></strong>
-                                                <div class="clearfix">
-                                                    <div class="product-item-price">
-                                                        <span class="price">$45.00</span>
-                                                        <span class="old-price">$52.00</span>
-                                                    </div>
-                                                    <div class="product-reviews-summary">
-                                                        <div class="rating-summary">
-                                                            <div class="rating-result" title="70%">
-                                                                <span style="width:70%">
-                                                                    <span><span>70</span>% of <span>100</span></span>
-                                                                </span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="product-item product-item-opt-2">
-                                        <div class="product-item-info">
-                                            <div class="product-item-photo">
-                                                <a href="" class="product-item-img"><img src="images/media/detail/Upsell2-3.jpg" alt="product name"></a>
-                                                <div class="product-item-actions">
-                                                    <a href="" class="btn btn-wishlist"><span>wishlist</span></a>
-                                                    <a href="" class="btn btn-compare"><span>compare</span></a>
-                                                    <a href="" class="btn btn-quickview"><span>quickview</span></a>
-                                                </div>
-                                                <button class="btn btn-cart" type="button"><span>Add to Cart</span></button>
-                                               
-                                            </div>
-                                            <div class="product-item-detail">
-                                                <strong class="product-item-name"><a href="">Fashion Leather Handbag</a></strong>
-                                                <div class="clearfix">
-                                                    <div class="product-item-price">
-                                                        <span class="price">$45.00</span>
-                                                        <span class="old-price">$52.00</span>
-                                                    </div>
-                                                    <div class="product-reviews-summary">
-                                                        <div class="rating-summary">
-                                                            <div class="rating-result" title="70%">
-                                                                <span style="width:70%">
-                                                                    <span><span>70</span>% of <span>100</span></span>
-                                                                </span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="product-item product-item-opt-2">
-                                        <div class="product-item-info">
-                                            <div class="product-item-photo">
-                                                <a href="" class="product-item-img"><img src="images/media/detail/Upsell2-3.jpg" alt="product name"></a>
-                                                <div class="product-item-actions">
-                                                    <a href="" class="btn btn-wishlist"><span>wishlist</span></a>
-                                                    <a href="" class="btn btn-compare"><span>compare</span></a>
-                                                    <a href="" class="btn btn-quickview"><span>quickview</span></a>
-                                                </div>
-                                                <button class="btn btn-cart" type="button"><span>Add to Cart</span></button>
-                                                
-                                            </div>
-                                            <div class="product-item-detail">
-                                                <strong class="product-item-name"><a href="">Fashion Leather Handbag</a></strong>
-                                                <div class="clearfix">
-                                                    <div class="product-item-price">
-                                                        <span class="price">$45.00</span>
-                                                        <span class="old-price">$52.00</span>
-                                                    </div>
-                                                    <div class="product-reviews-summary">
-                                                        <div class="rating-summary">
-                                                            <div class="rating-result" title="70%">
-                                                                <span style="width:70%">
-                                                                    <span><span>70</span>% of <span>100</span></span>
-                                                                </span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                
-                                </ol>
-                            </div>
-                        </div><!-- block-Upsell Products -->
+                        </div><!-- detail- product -->
 
-                    </div><!-- Main Content -->
-                    
-                    <!-- Sidebar -->
-                    <div class=" col-md-3 col-md-pull-9   col-sidebar">
-
-                        <!-- Block  bestseller products-->
-                        <div class="block-sidebar block-sidebar-categorie">
-                            <div class="block-title">
-                                <strong>PRODUCT TYPES</strong>
-                            </div>
-                            <div class="block-content">
-                                <ul class="items">
-                                    <li class="parent">
-                                        <a href="">Dress</a>
-                                        <span class="toggle-submenu"></span>
-                                        <ul class="subcategory">
-                                            <li >
-                                                <a href="">subcategory 1</a>
-                                                
-                                            </li>
-                                            <li><a href="">subcategory 1</a></li>
-                                            <li><a href="">subcategory 1</a></li>
-                                            <li><a href="">subcategory 1</a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="">Bags</a>
-                                    </li>
-                                    <li class="parent">
-                                        <a href="">Cost &amp; Jackets</a>
-                                        <span class="toggle-submenu"></span>
-                                        <ul class="subcategory">
-                                            <li><a href="">subcategory 1</a></li>
-                                            <li><a href="">subcategory 1</a></li>
-                                            <li><a href="">subcategory 1</a></li>
-                                            <li><a href="">subcategory 1</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="parent">
-                                        <a href="">Beauty</a>
-                                        <span class="toggle-submenu"></span>
-                                        <ul class="subcategory">
-                                            <li><a href="">subcategory 1</a></li>
-                                            <li><a href="">subcategory 1</a></li>
-                                            <li><a href="">subcategory 1</a></li>
-                                            <li><a href="">subcategory 1</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="parent">
-                                        <a href="">Jewellery</a>
-                                        <span class="toggle-submenu"></span>
-                                        <ul class="subcategory">
-                                            <li><a href="">subcategory 1</a></li>
-                                            <li><a href="">subcategory 1</a></li>
-                                            <li><a href="">subcategory 1</a></li>
-                                            <li><a href="">subcategory 1</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="parent">
-                                        <a href="">Nightwear</a>
-                                        <span class="toggle-submenu"></span>
-                                        <ul class="subcategory">
-                                            <li><a href="">subcategory 1</a></li>
-                                            <li><a href="">subcategory 1</a></li>
-                                            <li><a href="">subcategory 1</a></li>
-                                            <li><a href="">subcategory 1</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="parent">
-                                        <a href="">Jumpers &amp; Cardigans</a>
-                                        <span class="toggle-submenu"></span>
-                                        <ul class="subcategory">
-                                            <li><a href="">subcategory 1</a></li>
-                                            <li><a href="">subcategory 1</a></li>
-                                            <li><a href="">subcategory 1</a></li>
-                                            <li><a href="">subcategory 1</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div><!-- Block  bestseller products-->
-
-                        <!-- Block  bestseller products-->
-                        <div class="block-sidebar block-sidebar-products">
-                            <div class="block-title">
-                                <strong>BEST SALES</strong>
-                            </div>
-                            <div class="block-content">
-                                <div class="owl-carousel" 
-                                data-nav="false" 
-                                data-dots="true" 
-                                data-margin="0" 
-                                data-autoplayTimeout="700" 
-                                data-autoplay="true" 
-                                data-loop="true"
-                                data-responsive='{
-                                "0":{"items":1},
-                                "420":{"items":1},
-                                "480":{"items":2},
-                                "600":{"items":2},
-                                "992":{"items":1}
-                                }'>
-                                    <div class="item">
-                                        <div class="product-item product-item-opt-2">
-                                            <div class="product-item-info">
-                                                <div class="product-item-photo">
-                                                    <a class="product-item-img" href=""><img alt="product name" src="images/media/detail/best1.jpg"></a>
-                                                </div>
-                                                <div class="product-item-detail">
-                                                    <strong class="product-item-name"><a href="">Man’s Within Plus Size Flared</a></strong>
-                                                    <div class="clearfix">
-                                                        <div class="product-item-price">
-                                                            <span class="price">$45.00</span>
-                                                        </div>
-                                                        <div class="product-reviews-summary">
-                                                            <div class="rating-summary">
-                                                                <div title="70%" class="rating-result">
-                                                                    <span style="width:70%">
-                                                                        <span><span>70</span>% of <span>100</span></span>
-                                                                    </span>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="product-item product-item-opt-2">
-                                            <div class="product-item-info">
-                                                <div class="product-item-photo">
-                                                    <a class="product-item-img" href=""><img alt="product name" src="images/media/detail/best2.jpg"></a>
-                                                </div>
-                                                <div class="product-item-detail">
-                                                    <strong class="product-item-name"><a href="">Woman Within Plus Size Flared</a></strong>
-                                                    <div class="clearfix">
-                                                        <div class="product-item-price">
-                                                            <span class="price">$45.00</span>
-                                                        </div>
-                                                        <div class="product-reviews-summary">
-                                                            <div class="rating-summary">
-                                                                <div title="70%" class="rating-result">
-                                                                    <span style="width:70%">
-                                                                        <span><span>70</span>% of <span>100</span></span>
-                                                                    </span>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="product-item product-item-opt-2">
-                                            <div class="product-item-info">
-                                                <div class="product-item-photo">
-                                                    <a class="product-item-img" href=""><img alt="product name" src="images/media/detail/best3.jpg"></a>
-                                                </div>
-                                                <div class="product-item-detail">
-                                                    <strong class="product-item-name"><a href="">Plus Size Rock Star Skirt</a></strong>
-                                                    <div class="clearfix">
-                                                        <div class="product-item-price">
-                                                            <span class="price">$45.00</span>
-                                                        </div>
-                                                        <div class="product-reviews-summary">
-                                                            <div class="rating-summary">
-                                                                <div title="70%" class="rating-result">
-                                                                    <span style="width:70%">
-                                                                        <span><span>70</span>% of <span>100</span></span>
-                                                                    </span>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item">
-                                        <div class="product-item product-item-opt-2">
-                                            <div class="product-item-info">
-                                                <div class="product-item-photo">
-                                                    <a class="product-item-img" href=""><img alt="product name" src="images/media/detail/best1.jpg"></a>
-                                                </div>
-                                                <div class="product-item-detail">
-                                                    <strong class="product-item-name"><a href="">Man’s Within Plus Size Flared</a></strong>
-                                                    <div class="clearfix">
-                                                        <div class="product-item-price">
-                                                            <span class="price">$45.00</span>
-                                                        </div>
-                                                        <div class="product-reviews-summary">
-                                                            <div class="rating-summary">
-                                                                <div title="70%" class="rating-result">
-                                                                    <span style="width:70%">
-                                                                        <span><span>70</span>% of <span>100</span></span>
-                                                                    </span>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="product-item product-item-opt-2">
-                                            <div class="product-item-info">
-                                                <div class="product-item-photo">
-                                                    <a class="product-item-img" href=""><img alt="product name" src="images/media/detail/best2.jpg"></a>
-                                                </div>
-                                                <div class="product-item-detail">
-                                                    <strong class="product-item-name"><a href="">Woman Within Plus Size Flared</a></strong>
-                                                    <div class="clearfix">
-                                                        <div class="product-item-price">
-                                                            <span class="price">$45.00</span>
-                                                        </div>
-                                                        <div class="product-reviews-summary">
-                                                            <div class="rating-summary">
-                                                                <div title="70%" class="rating-result">
-                                                                    <span style="width:70%">
-                                                                        <span><span>70</span>% of <span>100</span></span>
-                                                                    </span>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="product-item product-item-opt-2">
-                                            <div class="product-item-info">
-                                                <div class="product-item-photo">
-                                                    <a class="product-item-img" href=""><img alt="product name" src="images/media/detail/best3.jpg"></a>
-                                                </div>
-                                                <div class="product-item-detail">
-                                                    <strong class="product-item-name"><a href="">Plus Size Rock Star Skirt</a></strong>
-                                                    <div class="clearfix">
-                                                        <div class="product-item-price">
-                                                            <span class="price">$45.00</span>
-                                                        </div>
-                                                        <div class="product-reviews-summary">
-                                                            <div class="rating-summary">
-                                                                <div title="70%" class="rating-result">
-                                                                    <span style="width:70%">
-                                                                        <span><span>70</span>% of <span>100</span></span>
-                                                                    </span>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><!-- Block  bestseller products-->
-
-                        <!-- block slide top -->
-                        <div class="block-sidebar block-banner-sidebar">
-                            <div class="owl-carousel" 
-                                data-nav="false" 
-                                data-dots="true" 
-                                data-margin="0" 
-                                data-items='1' 
-                                data-autoplayTimeout="700" 
-                                data-autoplay="true" 
-                                data-loop="true">
-                                <div class="item item1" >
-                                   <img src="images/media/detail/banner-slide2.jpg" alt="images">
-                                </div>
-                                <div class="item item2" >
-                                   <img src="images/media/detail/banner-slide2.jpg" alt="images">
-                                </div>
-                                <div class="item item3" >
-                                   <img src="images/media/detail/banner-slide2.jpg" alt="images">
-                                </div>
-                            </div>
-                        </div><!-- block slide top -->
-
-                        <!-- Block  SALE products-->
-                        <div class="block-sidebar block-sidebar-products-opt2">
-                            <div class="block-title">
-                                <strong>SALE PRODUCTS</strong>
-                            </div>
-                            <div class="block-content">
-                                <div class="owl-carousel" 
-                                data-nav="false" 
-                                data-dots="true" 
-                                data-margin="0" 
-                                data-autoplayTimeout="700" 
-                                data-autoplay="true" 
-                                data-loop="true"
-                                data-responsive='{
-                                "0":{"items":1},
-                                "420":{"items":2},
-                                "480":{"items":2},
-                                "600":{"items":2},
-                                "992":{"items":1}
-                                }'>
-                                    <div class="product-item product-item-opt-2">
-                                        <div class="product-item-info">
-                                            <div class="product-item-photo">
-                                                <a href="" class="product-item-img"><img src="images/media/detail/sale1.jpg" alt="product name"></a>
-                                                <div class="product-item-actions">
-                                                    <a href="" class="btn btn-wishlist"><span>wishlist</span></a>
-                                                    <a href="" class="btn btn-compare"><span>compare</span></a>
-                                                    <a href="" class="btn btn-quickview"><span>quickview</span></a>
-                                                </div>
-                                                <button class="btn btn-cart" type="button"><span>Add to Cart</span></button>
-                                                <span class="product-item-label label-price">30% <span>off</span></span>
-                                            </div>
-                                            <div class="product-item-detail">
-                                                <strong class="product-item-name"><a href="">Luxury Dark Blue Coast</a></strong>
-                                                <div class="clearfix">
-                                                    <div class="product-item-price">
-                                                        <span class="price">$45.00</span>
-                                                        <span class="old-price">$52.00</span>
-                                                    </div>
-                                                    <div class="product-reviews-summary">
-                                                        <div class="rating-summary">
-                                                            <div class="rating-result" title="70%">
-                                                                <span style="width:70%">
-                                                                    <span><span>70</span>% of <span>100</span></span>
-                                                                </span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="product-item product-item-opt-2">
-                                        <div class="product-item-info">
-                                            <div class="product-item-photo">
-                                                <a href="" class="product-item-img"><img src="images/media/product1.jpg" alt="product name"></a>
-                                                <div class="product-item-actions">
-                                                    <a href="" class="btn btn-wishlist"><span>wishlist</span></a>
-                                                    <a href="" class="btn btn-compare"><span>compare</span></a>
-                                                    <a href="" class="btn btn-quickview"><span>quickview</span></a>
-                                                </div>
-                                                <button class="btn btn-cart" type="button"><span>Add to Cart</span></button>
-                                                
-                                            </div>
-                                            <div class="product-item-detail">
-                                                <strong class="product-item-name"><a href="">Asus Ispiron 20</a></strong>
-                                                <div class="clearfix">
-                                                    <div class="product-item-price">
-                                                        <span class="price">$45.00</span>
-                                                        <span class="old-price">$52.00</span>
-                                                    </div>
-                                                    <div class="product-reviews-summary">
-                                                        <div class="rating-summary">
-                                                            <div class="rating-result" title="70%">
-                                                                <span style="width:70%">
-                                                                    <span><span>70</span>% of <span>100</span></span>
-                                                                </span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="product-item product-item-opt-2">
-                                        <div class="product-item-info">
-                                            <div class="product-item-photo">
-                                                <a href="" class="product-item-img"><img src="images/media/product1.jpg" alt="product name"></a>
-                                                <div class="product-item-actions">
-                                                    <a href="" class="btn btn-wishlist"><span>wishlist</span></a>
-                                                    <a href="" class="btn btn-compare"><span>compare</span></a>
-                                                    <a href="" class="btn btn-quickview"><span>quickview</span></a>
-                                                </div>
-                                                <button class="btn btn-cart" type="button"><span>Add to Cart</span></button>
-                                                <span class="product-item-label label-price">30% <span>off</span></span>
-                                            </div>
-                                            <div class="product-item-detail">
-                                                <strong class="product-item-name"><a href="">Asus Ispiron 20</a></strong>
-                                                <div class="clearfix">
-                                                    <div class="product-item-price">
-                                                        <span class="price">$45.00</span>
-                                                        <span class="old-price">$52.00</span>
-                                                    </div>
-                                                    <div class="product-reviews-summary">
-                                                        <div class="rating-summary">
-                                                            <div class="rating-result" title="70%">
-                                                                <span style="width:70%">
-                                                                    <span><span>70</span>% of <span>100</span></span>
-                                                                </span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><!-- Block  SALE products-->
-
-                        
-
-
-                    </div><!-- Sidebar -->
+                    </div><!-- Main detail -->
 
                 </div>
             </div>
 
+            <!-- product tab info -->
+            <div class="container">
+                <div class="product-info-detailed ">
 
-		</main><!-- end MAIN -->
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-pills" role="tablist">
+                        <li role="presentation" class="active"><a href="#description"  role="tab" data-toggle="tab">Description   </a></li>
+                        <li role="presentation"><a href="#tags"  role="tab" data-toggle="tab">Tags </a></li>
+                        <li role="presentation"><a href="#reviews"  role="tab" data-toggle="tab">Reviews (0)</a></li>
+                        <li role="presentation"><a href="#additional"  role="tab" data-toggle="tab">Additional</a></li>
+                        <li role="presentation"><a href="#tab-cust"  role="tab" data-toggle="tab">Custom Tab</a></li>
+                    </ul>
 
-		<!-- FOOTER -->
-        <footer class="site-footer footer-opt-6">
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane active" id="description">
+                            <div class="block-title">Description</div>
+                            <div class="block-content">
+                                <p>Lorem ipsum dolor sit amet, an munere tibique consequat mel, congue albucius no qui, at everti meliore erroribus sea. Vero graeco cotidieque ea duo, in eirmod insolens interpretaris nam. Pro at nostrud percipit definitiones, eu tale porro cum. Sea ne accusata voluptatibus. Ne cum falli dolor voluptua, duo ei sonet choro facilisis, labores officiis torquatos cum ei.</p>
+                                <br>
+                                <p>Cum altera mandamus in, mea verear disputationi et. Vel regione discere ut, legere expetenda ut eos. In nam nibh invenire similique. Atqui mollis ea his, ius graecis accommodare te. No eam tota nostrum cotidieque. Est cu nibh clita. Sed an nominavi maiestatis, et duo corrumpit constituto, duo id rebum lucilius. Te eam iisque deseruisse, ipsum euismod his at. Eu putent habemus voluptua sit, sit cu rationibus scripserit, modus voluptaria ex per. Aeque dicam consulatu eu his, probatus neglegentur disputationi sit et. Ei nec ludus epicuri petentium, vis appetere maluisset ad. Et hinc exerci utinam cum. Sonet saperet nominavi est at, vel eu sumo tritani. Cum ex minim legere.</p>
+                                <br>
+                                <p>Eos cu utroque inermis invenire, eu pri alterum antiopam. Nisl erroribus definitiones nec an, ne mutat scripserit est. Eros veri ad pri. An soleat maluisset per. Has eu idque similique, et blandit scriptorem necessitatibus mea. Vis quaeque ocurreret ea.</p>
+                            
+                           
+                            </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="tags">
+                            <div class="block-title">Tags</div>
+                            <div class="block-content">
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+                               
+                           
+                            </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="reviews">
+                            <div class="block-title">Reviews (0)</div>
+                            <div class="block-content">
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+                           
+                            </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="additional">
+                            <div class="block-title">Additional</div>
+                            <div class="block-content">
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+                               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+                               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+                           
+                            </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="tab-cust">
+                            <div class="block-title">Custom Tab</div>
+                            <div class="block-content">
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+                               
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div><!-- product tab info -->
+
+            <!-- block-related product -->
+            <div class="block-related container">
+                <div class="block-title">
+                    <strong class="title">RELATED products</strong>
+                </div>
+                <div class="block-content ">
+                    <ol class="product-items owl-carousel " data-nav="true" data-dots="false" data-margin="30" data-responsive='{"0":{"items":1},"480":{"items":2},"600":{"items":3},"992":{"items":4}}'>
+                        <li class=" product-item product-item-opt-0">
+                            <div class="product-item-info">
+                                <div class="product-item-photo">
+                                    <a href="" class="product-item-img"><img src="images/media/index1/Grid_Products1.jpg" alt="product name"></a>
+                                </div>
+                                <div class="product-item-detail">
+                                    <strong class="product-item-name"><a href="">SamSung Ultral Television </a></strong>
+                                    <div class="product-item-price">
+                                        <span class="price">$45.00</span>
+                                    </div>
+                                    <div class="product-item-actions">
+                                        <button class="btn btn-cart" type="button"><span>Add to Cart</span></button>
+                                        <a href="" class="btn btn-wishlist"><span>wishlist</span></a>
+                                        <a href="" class="btn btn-compare"><span>compare</span></a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class=" product-item product-item-opt-0">
+                            <div class="product-item-info">
+                                <div class="product-item-photo">
+                                    <a href="" class="product-item-img"><img src="images/media/index1/Grid_Products2.jpg" alt="product name"></a>
+                                </div>
+                                <div class="product-item-detail">
+                                    <strong class="product-item-name"><a href="">SamSung Ultral Television </a></strong>
+                                    <div class="product-item-price">
+                                        <span class="price">$45.00</span>
+                                    </div>
+                                    <div class="product-item-actions">
+                                        <button class="btn btn-cart" type="button"><span>Add to Cart</span></button>
+                                        <a href="" class="btn btn-wishlist"><span>wishlist</span></a>
+                                        <a href="" class="btn btn-compare"><span>compare</span></a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="product-item product-item-opt-0">
+                            <div class="product-item-info">
+                                <div class="product-item-photo">
+                                    <a href="" class="product-item-img"><img src="images/media/index1/Grid_Products3.jpg" alt="product name"></a>
+                                </div>
+                                <div class="product-item-detail">
+                                    <strong class="product-item-name"><a href="">SamSung Ultral Television </a></strong>
+                                    <div class="product-item-price">
+                                        <span class="price">$45.00</span>
+                                    </div>
+                                    <div class="product-item-actions">
+                                        <button class="btn btn-cart" type="button"><span>Add to Cart</span></button>
+                                        <a href="" class="btn btn-wishlist"><span>wishlist</span></a>
+                                        <a href="" class="btn btn-compare"><span>compare</span></a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="product-item product-item-opt-0">
+                            <div class="product-item-info">
+                                <div class="product-item-photo">
+                                    <a href="" class="product-item-img"><img src="images/media/index1/Grid_Products4.jpg" alt="product name"></a>
+                                </div>
+                                <div class="product-item-detail">
+                                    <strong class="product-item-name"><a href="">SamSung Ultral Television </a></strong>
+                                    <div class="product-item-price">
+                                        <span class="price">$45.00</span>
+                                    </div>
+                                    <div class="product-item-actions">
+                                        <button class="btn btn-cart" type="button"><span>Add to Cart</span></button>
+                                        <a href="" class="btn btn-wishlist"><span>wishlist</span></a>
+                                        <a href="" class="btn btn-compare"><span>compare</span></a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="product-item product-item-opt-0">
+                            <div class="product-item-info">
+                                <div class="product-item-photo">
+                                    <a href="" class="product-item-img"><img src="images/media/index1/Grid_Products5.jpg" alt="product name"></a>
+                                </div>
+                                <div class="product-item-detail">
+                                    <strong class="product-item-name"><a href="">SamSung Ultral Television </a></strong>
+                                    <div class="product-item-price">
+                                        <span class="price">$45.00</span>
+                                    </div>
+                                    <div class="product-item-actions">
+                                        <button class="btn btn-cart" type="button"><span>Add to Cart</span></button>
+                                        <a href="" class="btn btn-wishlist"><span>wishlist</span></a>
+                                        <a href="" class="btn btn-compare"><span>compare</span></a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class=" product-item product-item-opt-0">
+                            <div class="product-item-info">
+                                <div class="product-item-photo">
+                                    <a href="" class="product-item-img"><img src="images/media/index1/Grid_Products6.jpg" alt="product name"></a>
+                                </div>
+                                <div class="product-item-detail">
+                                    <strong class="product-item-name"><a href="">SamSung Ultral Television </a></strong>
+                                    <div class="product-item-price">
+                                        <span class="price">$45.00</span>
+                                    </div>
+                                    <div class="product-item-actions">
+                                        <button class="btn btn-cart" type="button"><span>Add to Cart</span></button>
+                                        <a href="" class="btn btn-wishlist"><span>wishlist</span></a>
+                                        <a href="" class="btn btn-compare"><span>compare</span></a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="product-item product-item-opt-0">
+                            <div class="product-item-info">
+                                <div class="product-item-photo">
+                                    <a href="" class="product-item-img"><img src="images/media/index1/Grid_Products7.jpg" alt="product name"></a>
+                                </div>
+                                <div class="product-item-detail">
+                                    <strong class="product-item-name"><a href="">SamSung Ultral Television </a></strong>
+                                    <div class="product-item-price">
+                                        <span class="price">$45.00</span>
+                                    </div>
+                                    <div class="product-item-actions">
+                                        <button class="btn btn-cart" type="button"><span>Add to Cart</span></button>
+                                        <a href="" class="btn btn-wishlist"><span>wishlist</span></a>
+                                        <a href="" class="btn btn-compare"><span>compare</span></a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    
+                    </ol>
+                </div>
+            </div><!-- block-related product -->
+
+            <!-- block-Upsell Products -->
+            <div class="block-upsell container">
+                <div class="block-title">
+                    <strong class="title">Upsell Products</strong>
+                </div>
+                <div class="block-content ">
+                    <ol class="product-items owl-carousel " data-nav="true" data-dots="false" data-margin="30" data-responsive='{"0":{"items":1},"480":{"items":2},"600":{"items":3},"992":{"items":4}}'>
+                        <li class=" product-item product-item-opt-0">
+                            <div class="product-item-info">
+                                <div class="product-item-photo">
+                                    <a href="" class="product-item-img"><img src="images/media/detail/Upsell1.jpg" alt="product name"></a>
+                                </div>
+                                <div class="product-item-detail">
+                                    <strong class="product-item-name"><a href="">SamSung Ultral Television </a></strong>
+                                    <div class="product-item-price">
+                                        <span class="price">$45.00</span>
+                                    </div>
+                                    <div class="product-item-actions">
+                                        <button class="btn btn-cart" type="button"><span>Add to Cart</span></button>
+                                        <a href="" class="btn btn-wishlist"><span>wishlist</span></a>
+                                        <a href="" class="btn btn-compare"><span>compare</span></a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class=" product-item product-item-opt-0">
+                            <div class="product-item-info">
+                                <div class="product-item-photo">
+                                    <a href="" class="product-item-img"><img src="images/media/detail/Upsell2.jpg" alt="product name"></a>
+                                </div>
+                                <div class="product-item-detail">
+                                    <strong class="product-item-name"><a href="">SamSung Ultral Television </a></strong>
+                                    <div class="product-item-price">
+                                        <span class="price">$45.00</span>
+                                    </div>
+                                    <div class="product-item-actions">
+                                        <button class="btn btn-cart" type="button"><span>Add to Cart</span></button>
+                                        <a href="" class="btn btn-wishlist"><span>wishlist</span></a>
+                                        <a href="" class="btn btn-compare"><span>compare</span></a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="product-item product-item-opt-0">
+                            <div class="product-item-info">
+                                <div class="product-item-photo">
+                                    <a href="" class="product-item-img"><img src="images/media/detail/Upsell3.jpg" alt="product name"></a>
+                                </div>
+                                <div class="product-item-detail">
+                                    <strong class="product-item-name"><a href="">SamSung Ultral Television </a></strong>
+                                    <div class="product-item-price">
+                                        <span class="price">$45.00</span>
+                                    </div>
+                                    <div class="product-item-actions">
+                                        <button class="btn btn-cart" type="button"><span>Add to Cart</span></button>
+                                        <a href="" class="btn btn-wishlist"><span>wishlist</span></a>
+                                        <a href="" class="btn btn-compare"><span>compare</span></a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="product-item product-item-opt-0">
+                            <div class="product-item-info">
+                                <div class="product-item-photo">
+                                    <a href="" class="product-item-img"><img src="images/media/detail/Upsell4.jpg" alt="product name"></a>
+                                </div>
+                                <div class="product-item-detail">
+                                    <strong class="product-item-name"><a href="">SamSung Ultral Television </a></strong>
+                                    <div class="product-item-price">
+                                        <span class="price">$45.00</span>
+                                    </div>
+                                    <div class="product-item-actions">
+                                        <button class="btn btn-cart" type="button"><span>Add to Cart</span></button>
+                                        <a href="" class="btn btn-wishlist"><span>wishlist</span></a>
+                                        <a href="" class="btn btn-compare"><span>compare</span></a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="product-item product-item-opt-0">
+                            <div class="product-item-info">
+                                <div class="product-item-photo">
+                                    <a href="" class="product-item-img"><img src="images/media/detail/Upsell1.jpg" alt="product name"></a>
+                                </div>
+                                <div class="product-item-detail">
+                                    <strong class="product-item-name"><a href="">SamSung Ultral Television </a></strong>
+                                    <div class="product-item-price">
+                                        <span class="price">$45.00</span>
+                                    </div>
+                                    <div class="product-item-actions">
+                                        <button class="btn btn-cart" type="button"><span>Add to Cart</span></button>
+                                        <a href="" class="btn btn-wishlist"><span>wishlist</span></a>
+                                        <a href="" class="btn btn-compare"><span>compare</span></a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class=" product-item product-item-opt-0">
+                            <div class="product-item-info">
+                                <div class="product-item-photo">
+                                    <a href="" class="product-item-img"><img src="images/media/detail/Upsell3.jpg" alt="product name"></a>
+                                </div>
+                                <div class="product-item-detail">
+                                    <strong class="product-item-name"><a href="">SamSung Ultral Television </a></strong>
+                                    <div class="product-item-price">
+                                        <span class="price">$45.00</span>
+                                    </div>
+                                    <div class="product-item-actions">
+                                        <button class="btn btn-cart" type="button"><span>Add to Cart</span></button>
+                                        <a href="" class="btn btn-wishlist"><span>wishlist</span></a>
+                                        <a href="" class="btn btn-compare"><span>compare</span></a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="product-item product-item-opt-0">
+                            <div class="product-item-info">
+                                <div class="product-item-photo">
+                                    <a href="" class="product-item-img"><img src="images/media/detail/Upsell4.jpg" alt="product name"></a>
+                                </div>
+                                <div class="product-item-detail">
+                                    <strong class="product-item-name"><a href="">SamSung Ultral Television </a></strong>
+                                    <div class="product-item-price">
+                                        <span class="price">$45.00</span>
+                                    </div>
+                                    <div class="product-item-actions">
+                                        <button class="btn btn-cart" type="button"><span>Add to Cart</span></button>
+                                        <a href="" class="btn btn-wishlist"><span>wishlist</span></a>
+                                        <a href="" class="btn btn-compare"><span>compare</span></a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    
+                    </ol>
+                </div>
+            </div><!-- block-Upsell Products -->
+
+            <!-- block  service-->
+            <div class="block-service">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="item">
+                                <span class="icon">
+                                    <img src="images/icon/index1/service1.png" alt="service">
+                                </span>
+                                <strong class="title">Member Safe Shopping</strong>
+                                <span>Safe Shopping Guarantee</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="item">
+                                <span class="icon">
+                                    <img src="images/icon/index1/service2.png" alt="service">
+                                </span>
+                                <strong class="title">30- day return products</strong>
+                                <span>Moneyback guarantee</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="item">
+                                <span class="icon">
+                                    <img src="images/icon/index1/service3.png" alt="service">
+                                </span>
+                                <strong class="title">Free Shipping worldwide</strong>
+                                <span>On oder over $100</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- block  service-->
+            
+        </main><!-- end MAIN -->
+
+        <!-- FOOTER -->
+        <footer class="site-footer footer-opt-1">
 
             <div class="container">
                 <div class="footer-column">
                 
                     <div class="row">
-                        <div class="col-md-3 col-lg-3 col-sm-6 col">
+                        <div class="col-md-4 col-lg-4 col-sm-6">
                             <strong class="logo-footer">
-                                <a href=""><img src="images/media/detail/logo.png" alt="logo"></a>
+                                <a href=""><img src="images/media/index1/logo-footer.png" alt="logo"></a>
                             </strong>
 
                             <table class="address">
@@ -1864,43 +1465,35 @@
                                 </tr>
                             </table>
                         </div>
-                        <div class="col-md-2 col-lg-2 col-sm-3 col">
+                        <div class="col-md-3 col-lg-2 col-sm-6">
                             <div class="links">
-                            <h3 class="title">Company</h3>
+                            <h3 class="title">Customer Service</h3>
                             <ul>
-                                <li><a href="">About Us</a></li>
-                                <li><a href="">Testimonials</a></li>
-                                <li><a href="">Affiliate Program</a></li>
-                                <li><a href="">Terms & Conditions</a></li>
-                                <li><a href="">Terms & Conditions</a></li>
+                                <li><a href="">Advanced Search</a></li>
+                                <li><a href="">Orders And Returns</a></li>
+                                <li><a href="">Contacts US</a></li>
+                                <li><a href="">RSS</a></li>
+                                <li><a href="">Help & FAQ'S</a></li>
+                                <li><a href="">Consultant</a></li>
+                                <li><a href="">Store Locations</a></li>
                             </ul>
                             </div>
                         </div>
-                        <div class="col-md-2 col-lg-2 col-sm-3 col">
+                        <div class="col-md-2 col-lg-2 col-sm-6">
                             <div class="links">
-                            <h3 class="title">My Account</h3>
+                            <h3 class="title">Products</h3>
                             <ul>
                                 <li><a href="">My Order</a></li>
                                 <li><a href="">My Wishlist</a></li>
                                 <li><a href="">My Credit Slip</a></li>
                                 <li><a href="">My Addresses</a></li>
-                                <li><a href="">My Account</a></li>
+                                <li><a href="">New In</a></li>
+                                <li><a href="">Women</a></li>
+                                <li><a href="">Lookbook</a></li>
                             </ul>
                             </div>
                         </div>
-                        <div class="col-md-2 col-lg-2 col-sm-6 col">
-                            <div class="links">
-                            <h3 class="title">Support</h3>
-                            <ul>
-                                <li><a href="">New User Guide</a></li>
-                                <li><a href="">Help Center</a></li>
-                                <li><a href="">Refund Policy</a></li>
-                                <li><a href="">Report Spam</a></li>
-                                <li><a href="">FAQ</a></li>
-                            </ul>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-lg-3 col-sm-6 col">
+                        <div class="col-md-3 col-lg-4 col-sm-6">
                             <div class="block-newletter">
                                 <div class="block-title">NEWSLETTER</div>
                                 <div class="block-content">
@@ -1908,7 +1501,7 @@
                                     <div class="input-group">
                                         <input type="text" class="form-control" placeholder="Your Email Address">
                                         <span class="input-group-btn">
-                                            <button class="btn btn-subcribe" type="button"><span>ok</span></button>
+                                            <button class="btn btn-subcribe" type="button"><span>Subcribe</span></button>
                                         </span>
                                     </div>
                                 </form>
@@ -1917,161 +1510,15 @@
                             <div class="block-social">
                                 <div class="block-title">Let’s Socialize </div>
                                 <div class="block-content">
-                                    <a href="" class="sh-facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                    <a href="" class="sh-pinterest"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
-                                    <a href="" class="sh-vk"><i class="fa fa-vk" aria-hidden="true"></i></a>
-                                    <a href="" class="sh-twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                    <a href="" class="sh-google"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                    <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                    <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                    <a href=""><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                                    <a href=""><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+                                    <a href=""><i class="fa fa-camera" aria-hidden="true"></i></a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-
-                <div class="payment-methods">
-                    <div class="block-title">
-                        Accepted Payment Methods
-                    </div>
-                    <div class="block-content">
-                        <div class="owl-carousel" 
-                            data-nav="true" 
-                            data-dots="false" 
-                            data-margin="5" 
-                            data-responsive='{
-                                "0":{"items":3},
-                                "480":{"items":4},
-                                "600":{"items":5},
-                                "992":{"items":10}
-                        }'>
-                            <div class="item">
-                                <a href=""><img src="images/media/index6/payment1.png" alt="payment"></a>
-                            </div>
-                            <div class="item">
-                                <a href=""><img src="images/media/index6/payment2.png" alt="payment"></a>
-                            </div>
-                            <div class="item">
-                                <a href=""><img src="images/media/index6/payment3.png" alt="payment"></a>
-                            </div>
-                            <div class="item">
-                                <a href=""><img src="images/media/index6/payment4.png" alt="payment"></a>
-                            </div>
-                            <div class="item">
-                                <a href=""><img src="images/media/index6/payment5.png" alt="payment"></a>
-                            </div>
-                            <div class="item">
-                                <a href=""><img src="images/media/index6/payment6.png" alt="payment"></a>
-                            </div>
-                            <div class="item">
-                                <a href=""><img src="images/media/index6/payment7.png" alt="payment"></a>
-                            </div>
-                            <div class="item">
-                                <a href=""><img src="images/media/index6/payment8.png" alt="payment"></a>
-                            </div>
-                            <div class="item">
-                                <a href=""><img src="images/media/index6/payment9.png" alt="payment"></a>
-                            </div>
-                            <div class="item">
-                                <a href=""><img src="images/media/index6/payment10.png" alt="payment"></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="footer-links">
-                    
-                        
-                    <ul class="links">
-                        <li><strong class="title">HOT SEARCHED KEYWORDS:</strong></li>
-                        <li><a href="">Xiaomi Mi3 </a></li>
-                        <li><a href="">Digiflip Pro XT 712 Tablet</a></li>
-                        <li><a href="">Mi 3 Phones  </a></li>
-                        <li><a href="">Iphone 6 Plus  </a></li>
-                        <li><a href="">Women's Messenger Bags</a></li>
-                        <li><a href="">Wallets   </a></li>
-                        <li><a href="">Women's Clutches   </a></li>
-                        <li><a href="">Backpacks Totes</a></li>
-                    </ul>
-                    
-                    
-                        
-                    <ul class="links">
-                        <li><strong class="title">tvs: </strong></li>
-                        <li><a href="">Sony TV  </a></li>
-                        <li><a href=""> Samsung TV  </a></li>
-                        <li><a href="">LG TV  </a></li>
-                        <li><a href="">Panasonic TV  </a></li>
-                        <li><a href=""> Onida TV  </a></li>
-                        <li><a href=""> Toshiba TV  </a></li>
-                        <li><a href=""> Philips TV</a></li>
-                        <li><a href="">Micromax TV</a></li>
-                        <li><a href="">LED TV </a></li>
-                        <li><a href="">  LCD TV  </a></li>
-                        <li><a href="">Plasma TV </a></li>
-                        <li><a href="">3D TV    </a></li>
-                        <li><a href="">Smart TV </a></li>
-                    </ul>
-                   
-                   
-                        
-                    <ul  class="links">
-                        <li><strong class="title">MOBILES: </strong></li>
-                        <li><a href="">Moto E </a></li>
-                        <li><a href=""> Samsung Mobile </a></li>
-                        <li><a href="">Micromax Mobile</a></li>
-                        <li><a href="">Nokia Mobile </a></li>
-                        <li><a href=""> HTC Mobile </a></li>
-                        <li><a href="">Sony Mobile  </a></li>
-                        <li><a href=""> Apple Mobile  </a></li>
-                        <li><a href=""> LG Mobile  </a></li>
-                        <li><a href="">Karbonn Mobile</a></li>
-                    </ul>
-                   
-                        
-                    <ul class="links">
-                        <li><strong class="title">LAPTOPS:</strong></li>
-                        <li><a href="">Apple Laptop  </a></li>
-                        <li><a href="">Acer Laptop </a></li>
-                        <li><a href="">Samsung Laptop</a></li>
-                        <li><a href="">Lenovo Laptop </a></li>
-                        <li><a href="">Sony Laptop</a></li>
-                        <li><a href="">Dell Laptop</a></li>
-                        <li><a href="">Asus Laptop </a></li>
-                        <li><a href="">  Toshiba Laptop</a></li>
-                        <li><a href="">LG Laptop </a></li>
-                        <li><a href="">HP Laptop</a></li>
-                        <li><a href="">Notebook</a></li>
-                    </ul>
-                   
-                    
-                        
-                    <ul class="links">
-                        <li><strong class="title">WATCHES:</strong></li>
-                        <li><a href="">FCUK Watches</a></li>
-                        <li><a href="">Titan Watches  </a></li>
-                        <li><a href="">  Casio Watches </a></li>
-                        <li><a href="">  Fastrack Watches </a></li>
-                        <li><a href="">Timex Watches </a></li>
-                        <li><a href="">Fossil Watches</a></li>
-                        <li><a href="">Diesel Watches  </a></li>
-                        <li><a href=""> Luxury Watches</a></li>
-                    </ul>
-                   
-                    
-                    <ul class="links">
-                        <li><strong class="title">FOOTWEAR: </strong></li>
-                        <li><a href="">Shoes  </a></li>
-                        <li><a href="">Casual Shoes </a></li>
-                        <li><a href=""> Sports Shoes </a></li>
-                        <li><a href="">Formal Shoes </a></li>
-                        <li><a href=""> Adidas Shoes  </a></li>
-                        <li><a href="">Gas Shoes</a></li>
-                        <li><a href=""> Puma Shoes</a></li>
-                        <li><a href="">Reebok Shoes </a></li>
-                        <li><a href="">Woodland Shoes  </a></li>
-                        <li><a href="">Red tape Shoes</a></li>
-                        <li><a href="">Nike Shoes</a></li>
-                    </ul>
-                    
                 </div>
 
                 <div class="footer-bottom">
@@ -2122,31 +1569,42 @@
                 </div>
 
             </div>
-
-        </footer><!-- end FOOTER --> 		
-		
+        </footer><!-- end FOOTER -->        
+        
         <!--back-to-top  -->
         <a href="#" class="back-to-top">
             <i aria-hidden="true" class="fa fa-angle-up"></i>
         </a>
         
-	</div>
+    </div>
 
-	<!-- jQuery -->    
+    <!-- jQuery -->    
     <script type="text/javascript" src="js/jquery.min.js"></script>
-    
-    <!-- modernizr -->
-    <script src="js/modernizr.js"></script>
-
-    <!-- Boostrap --> 
-    <script type="text/javascript" src="js/bootstrap.js"></script>
 
     <!-- sticky -->
     <script type="text/javascript" src="js/jquery.sticky.js"></script>
 
     <!-- OWL CAROUSEL Slider -->    
-    <script type="text/javascript" src="js/owl.carousel.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
 
+    <!-- Boostrap --> 
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Countdown --> 
+    <script type="text/javascript" src="js/jquery.countdown.min.js"></script>
+
+    <!--jquery Bxslider  -->
+    <script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
+    
+    <!-- actual --> 
+    <script type="text/javascript" src="js/jquery.actual.min.js"></script>
+
+    <!-- jQuery UI -->
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+    
+    <!-- Chosen jquery-->    
+    <script type="text/javascript" src="js/chosen.jquery.min.js"></script>
+    
     <!-- elevatezoom --> 
     <script type="text/javascript" src="js/jquery.elevateZoom.min.js"></script>
 
@@ -2157,57 +1615,9 @@
 
     <!-- arcticmodal -->
     <script src="js/arcticmodal/jquery.arcticmodal.js"></script>
-
-    <!-- jQuery UI -->
-    <script type="text/javascript" src="js/jquery-ui.min.js"></script>
-    
-    <!-- Chosen jquery-->    
-    
-    <script type="text/javascript" src="js/chosen.jquery.js"></script>
     
     <!-- Main -->  
     <script type="text/javascript" src="js/main.js"></script>
 
-    <!-- Custom scripts -->
-
-    <script>
-
-        (function($) {
-
-            "use strict";
-
-            $(document).ready(function() {
-
-                /*  [ Filter by price ]
-
-                - - - - - - - - - - - - - - - - - - - - */
-
-                $('#slider-range').slider({
-
-                    range: true,
-
-                    min: 0,
-
-                    max: 500,
-
-                    values: [0, 300],
-
-                    slide: function (event, ui) {
-
-                        $('#amount-left').text(ui.values[0] );
-                        $('#amount-right').text(ui.values[1] );
-
-                    }
-
-                });
-
-                $('#amount-left').text($('#slider-range').slider('values', 0));
-
-                $('#amount-right').text($('#slider-range').slider('values', 1));
-            }); 
-
-        })(jQuery);
-
-    </script>
 </body>
 </html>

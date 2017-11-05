@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>List Product Main </title>
+    <title>List Products</title>
 
-	<meta charset="utf-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -12,89 +12,81 @@
 
 
     <!-- Less -->
-   <!--  <link rel="stylesheet/less" type="text/css" href="less/style.less">
+<!--     <link rel="stylesheet/less" type="text/css" href="less/style.less">
     <link rel="stylesheet/less" type="text/css" href="less/responsive.less">
     <script type="text/javascript" src="js/less/config.js"></script>
     <script type="text/javascript" src="js/less/less.js"></script> -->
 
 </head>
-<body class="index-opt-6 catalog-category-view catalog-view_op1">
+<body class="index-opt-1 catalog-category-view ">
 
-	<div class="wrapper">
-
-		<!-- alert banner top -->
-        <div role="alert" class="qc-top-site qc-top-site1 alert  fade in" > 
-            <div class="container">
-                <button class="close" type="button"><span aria-hidden="true">×</span></button> 
-                <div class="description">
-                    <span class="title">Special Offer!</span>
-                    <span class="subtitle">Rewarding all customers with a 15% discount. </span>
-                    <span class="des">This offer is available from 9th December to 19th December 2015.</span>
-                    
-                </div>
-            </div>
-        </div><!-- alert banner top -->
+    <div class="wrapper">
 
         <!-- HEADER -->
-        <header class="site-header header-opt-6">
+        <header class="site-header header-opt-1">
 
+            <!-- header-top -->
             <div class="header-top">
                 <div class="container">
 
+                    <!-- hotline -->
                     <ul class="hotline nav-left" >
                         <li ><span><i class="fa fa-phone" aria-hidden="true"></i>+ 00 123 456 789</span></li>
                         <li ><span><i class="fa fa-envelope" aria-hidden="true"></i> Contact us today !</span></li>
-                        <li class="dropdown switcher  switcher-currency">
-                            <a data-toggle="dropdown" role="button" href="#" class="dropdown-toggle switcher-trigger"><span>USD</span> <i aria-hidden="true" class="fa fa-angle-down"></i></a>
-                            <ul class="dropdown-menu switcher-options ">
-                                <li class="switcher-option">
-                                    <a href="#">
-                                        <i class="fa fa-usd" aria-hidden="true"></i> USD
-                                    </a>
-                                </li>
-                                <li class="switcher-option">
-                                    <a href="#">
-                                        <i class="fa fa-eur" aria-hidden="true"></i> eur
-                                    </a>
-                                </li>
-                                <li class="switcher-option">
-                                    <a href="#">
-                                        <i class="fa fa-gbp" aria-hidden="true"></i> gbp
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="dropdown switcher  switcher-language">
-                            <a data-toggle="dropdown" role="button" href="#" class="dropdown-toggle switcher-trigger" aria-expanded="false">
-                                <img class="switcher-flag" alt="flag" src="images/flags/flag_english.png">
-                                <span>English</span> 
-                                <i aria-hidden="true" class="fa fa-angle-down"></i>
-                            </a>
-                            <ul class="dropdown-menu switcher-options ">
-                                <li class="switcher-option">
-                                    <a href="#">
-                                        <img class="switcher-flag" alt="flag" src="images/flags/flag_english.png">English
-                                    </a>
-                                </li>
-                                <li class="switcher-option">
-                                    <a href="#">
-                                        <img class="switcher-flag" alt="flag" src="images/flags/flag_french.png">French
-                                    </a>
-                                </li>
-                                <li class="switcher-option">
-                                    <a href="#">
-                                        <img class="switcher-flag" alt="flag" src="images/flags/flag_germany.png">Germany
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
+                    </ul><!-- hotline -->
 
+                    <!-- heder links -->
                     <ul class="links nav-right">
+                        <li ><a href="">Login/Register</a></li>
                         <li class="dropdown setting">
-                            <a data-toggle="dropdown" role="button" href="#" class="dropdown-toggle "><span>My Account</span> <i aria-hidden="true" class="fa fa-angle-down"></i></a>
+                            <a data-toggle="dropdown" role="button" href="#" class="dropdown-toggle "><span>Settings</span> <i aria-hidden="true" class="fa fa-angle-down"></i></a>
                             <div class="dropdown-menu  ">
-                               
+                                <div class="switcher  switcher-language">
+                                    <strong class="title">Select language</strong>
+                                    <ul class="switcher-options ">
+                                        <li class="switcher-option">
+                                            <a href="#">
+                                                <img class="switcher-flag" alt="flag_french" src="images/flags/flag_french.png">
+                                            </a>
+                                        </li>
+                                        <li class="switcher-option">
+                                            <a href="#">
+                                                <img class="switcher-flag" alt="flag_germany" src="images/flags/flag_germany.png">
+                                            </a>
+                                        </li>
+                                        <li class="switcher-option">
+                                            <a href="#">
+                                                <img class="switcher-flag" alt="flag" src="images/flags/flag_english.png">
+                                            </a>
+                                        </li>
+                                        <li class="switcher-option switcher-active">
+                                            <a href="#">
+                                                <img class="switcher-flag" alt="flag" src="images/flags/flag_spain.png">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="switcher  switcher-currency">
+                                    <strong class="title">SELECT CURRENCIES</strong>
+                                    <ul class="switcher-options ">
+                                        <li class="switcher-option">
+                                            <a href="#">
+                                                <i class="fa fa-usd" aria-hidden="true"></i>
+                                            </a>
+                                        </li>
+                                        <li class="switcher-option switcher-active">
+                                            <a href="#">
+                                                <i class="fa fa-eur" aria-hidden="true"></i>
+                                            </a>
+                                        </li>
+                                        <li class="switcher-option">
+                                            <a href="#">
+                                                <i class="fa fa-gbp" aria-hidden="true"></i>
+                                            </a>
+                                        </li>
+                                       
+                                    </ul>
+                                </div>
                                 <ul class="account">
                                     <li><a href="">Wishlist</a></li>
                                     <li><a href="">My Account</a></li>
@@ -104,38 +96,68 @@
                                 </ul>
                             </div>
                         </li>
-                        
-                        <li><a href="" >Services</a></li>
-                        <li><a href="">Support </a></li>
-                    </ul>
+                        <li><a href="" >Support</a></li>
+                        <li><a href="">Services </a></li>
+                    </ul><!-- heder links -->
 
                 </div>
-            </div>
+            </div> <!-- header-top -->
 
+            <!-- header-content -->
             <div class="header-content">
                 <div class="container">
 
                     <div class="row">
 
                         <div class="col-md-3 nav-left">
-
                             <!-- logo -->
                             <strong class="logo">
-                                <a href=""><img src="images/media/index6/logo.png" alt="logo"></a>
-                            </strong>
+                                <a href=""><img src="images/media/index1/logo.png" alt="logo"></a>
+                            </strong><!-- logo -->
+                        </div>
+
+                        <div class="col-md-6 nav-mind">
+
+                            <!-- block search -->
+                            <div class="block-search">
+                                <div class="block-title">
+                                    <span>Search</span>
+                                </div>
+                                <div class="block-content">
+                                    <div class="categori-search  ">
+                                        <select data-placeholder="All Categories" class="categori-search-option">
+                                            <option>All Categories</option>
+                                            <option>Fashion</option>
+                                            <option>Tops Blouses</option>
+                                            <option>Clothing</option>
+                                            <option>Furniture</option>
+                                            <option>Bathtime Goods</option>
+                                            <option>Shower Curtains</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-search">
+                                        <form>
+                                            <div class="box-group">
+                                                <input type="text" class="form-control" placeholder="Search here...">
+                                                <button class="btn btn-search" type="button"><span>search</span></button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div><!-- block search -->
 
                         </div>
 
-                        <div class="nav-right">  
+                        <div class="col-md-3 nav-right">
 
-                            <!-- block mini cart -->  
+                            <!-- block mini cart -->
                             <div class="block-minicart dropdown">
                                 <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown">
                                     <span class="cart-icon"></span>
+                                    <span class="cart-text">cart</span>
                                     <span class="counter qty">
-                                        <span class="cart-text">Shopping Cart</span>
                                         <span class="counter-number">6</span>
-                                        <span class="counter-label">6 <span>Items</span></span>
+                                        <span class="counter-label">6 <span>Item(s)</span></span>
                                         <span class="counter-price">$75.00</span>
                                     </span>
                                 </a>
@@ -206,52 +228,27 @@
                                         </div>
                                     </form>
                                 </div>
-                            </div>
+                            </div><!-- block mini cart -->
+
+                            <!-- link  wishlish-->
+                            <a href="" class="link-wishlist"><span>wishlish</span></a>
+                            <!-- link  wishlish-->
 
                         </div>
 
-                        <div class="nav-mind">   
-
-                            <!-- block search -->
-                            <div class="block-search">
-                                <div class="block-title">
-                                    <span>Search</span>
-                                </div>
-                                <div class="block-content">
-                                    <div class="categori-search  ">
-                                        <select data-placeholder="All Categories" class="categori-search-option">
-                                            <option>All Categories</option>
-                                            <option>Fashion</option>
-                                            <option>Tops Blouses</option>
-                                            <option>Clothing</option>
-                                            <option>Furniture</option>
-                                            <option>Bathtime Goods</option>
-                                            <option>Shower Curtains</option>
-                                        </select>
-                                    </div>
-                                    <div class="form-search">
-                                        <form>
-                                            <div class="box-group">
-                                                <input type="text" class="form-control" placeholder="i'm Searching for...">
-                                                <button class="btn btn-search" type="button"><span>search</span></button>
-                                            </div>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                    </div>
+                    </div>                    
 
                 </div>
-            </div>
+            </div><!-- header-content -->
 
+            <!-- header-nav -->
             <div class="header-nav mid-header">
                 <div class="container">
                     <div class="box-header-nav">
 
                         <span data-action="toggle-nav-cat" class="nav-toggle-menu nav-toggle-cat"><span>Categories</span><i aria-hidden="true" class="fa fa-bars"></i></span>
 
+                        <!-- block categori -->
                         <div class="block-nav-categori">
                             <div class="block-title">
                                 <span>Categories</span>
@@ -510,24 +507,7 @@
                                             Sport & Outdoors
                                         </a>
                                     </li>
-                                    <li>
-                                        <a href="">
-                                            <span class="icon"><img src="images/icon/index1/nav-cat9.png" alt="nav-cat"></span>
-                                            Computer & Networking
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="">
-                                            <span class="icon"><img src="images/icon/index1/nav-cat10.png" alt="nav-cat"></span>
-                                            Flashlights & Lamps
-                                        </a>
-                                    </li>
-                                    <li class="cat-link-orther">
-                                        <a href="">
-                                            <span class="icon"><img src="images/icon/index1/nav-cat10.png" alt="nav-cat"></span>
-                                            Sport & Outdoors
-                                        </a>
-                                    </li>
+                                    
                                     <li class="cat-link-orther">
                                         <a href="">
                                             <span class="icon"><img src="images/icon/index1/nav-cat9.png" alt="nav-cat"></span>
@@ -548,7 +528,7 @@
                                 </div>
                             </div>
                             
-                        </div>
+                        </div><!-- block categori -->
 
                         <!-- menu -->
                         <div class="block-nav-menu">
@@ -608,7 +588,7 @@
                                             <ul>
                                                 <li class="col-md-4">
                                                     <ul class="list-submenu">
-                                                        <li><a href="Grid_Products.html">Grid Products</a></li>
+                                                        <li><a href="grid.html">Grid Products</a></li>
                                                         <li><a href="Grid_Products_RightSideBar.html">Grid Products RightSideBar</a></li>
                                                         <li><a href="Grid_Products-no-bg.html">Grid Products no bg</a></li>
                                                         <li><a href="Grid_Product---Main.html">Grid_Product Main</a></li>
@@ -638,7 +618,7 @@
                                 </li>
                                
                                 <li class="parent parent-megamenu">
-                                    <a href="">Electronics  <span class="label-menu">New</span></a>
+                                    <a href="">New arrivals   </a>
                                     <span class="toggle-submenu"></span>
                                     <div class="megamenu">
                                         <div class="horizontal-menu">
@@ -646,7 +626,8 @@
                                                 <li class="col-md-3">
                                                     
                                                     <div class="img-categori">
-                                                        <a href=""><img alt="img" src="images/media/index1/img-categori1.jpg"></a>
+                                                        <a href=""><img alt="categori1"
+                                                         src="images/media/index1/img-categori1.jpg"></a>
                                                     </div>
                                                     <strong class="title"><a href=""><span>Men’s </span></a></strong>
                                                     <ul class="list-submenu">
@@ -659,7 +640,7 @@
                                                 <li class="col-md-3">
                                                    
                                                     <div class="img-categori">
-                                                        <a href=""><img  alt="img"  src="images/media/index1/img-categori2.jpg"></a>
+                                                        <a href=""><img alt="categori1" src="images/media/index1/img-categori2.jpg"></a>
                                                     </div>
                                                     <strong class="title"><a href=""><span>woMen’s </span></a></strong>
                                                     <ul class="list-submenu">
@@ -672,7 +653,7 @@
                                                 <li class="col-md-3">
                                                     
                                                     <div class="img-categori">
-                                                        <a href=""><img alt="img"  src="images/media/index1/img-categori3.jpg"></a>
+                                                        <a href=""><img alt="categori1" src="images/media/index1/img-categori3.jpg"></a>
                                                     </div>
                                                     <strong class="title"><a href=""> <span>kid’s</span></a></strong>
                                                     <ul class="list-submenu">
@@ -685,7 +666,7 @@
                                                 <li class="col-md-3">
                                                     
                                                     <div class="img-categori">
-                                                        <a href=""><img alt="img"  src="images/media/index1/img-categori4.jpg"></a>
+                                                        <a href=""><img alt="categori1" src="images/media/index1/img-categori4.jpg"></a>
                                                     </div>
                                                     <strong class="title"><a href=""><span>trending</span> </a></strong>
                                                     <ul class="list-submenu">
@@ -700,7 +681,7 @@
                                     </div>
                                 </li>
                                 <li class="parent parent-megamenu">
-                                    <a href="Contact.html">Digital </a>
+                                    <a href="Contact.html">Sale products</a>
                                     <span class="toggle-submenu"></span>
                                     <div class="megamenu">
                                         <div class="vertical-menu">
@@ -758,7 +739,8 @@
                                                             <a href="#">Burberry Pink &amp; black</a>
                                                         </strong>
                                                         <div class="product-item-qty">
-                                                            <span class="label">Quantity:</span ><span class="number">6</span>
+                                                            <span class="label">Quantity:</span >
+                                                            <span class="number">6</span>
                                                         </div>
                                                         <div class="product-item-price">
                                                             <span class="price"> $17.96</span>
@@ -818,7 +800,7 @@
                                 <div class="form-search">
                                     <form>
                                         <div class="box-group">
-                                            <input type="text" class="form-control" placeholder="i'm Searching for...">
+                                            <input type="text" class="form-control" placeholder="Search here...">
                                             <button class="btn btn-search" type="button"><span>search</span></button>
                                         </div>
                                     </form>
@@ -887,109 +869,31 @@
                         
                     </div>
                 </div>
-            </div>
+            </div><!-- header-nav -->
 
-        </header><!-- end HEADER -->       
+        </header><!-- end HEADER -->    
 
-		<!-- MAIN -->
-		<main class="site-main">
-
+        <!-- MAIN -->
+        <main class="site-main">
             <div class="columns container">
-                <!-- Block  Breadcrumb-->
-                        
-                <ol class="breadcrumb no-hide">
-                    <li><a href="#">Home    </a></li>
-                    <li><a href="#">Electronics    </a></li>
-                    <li class="active">Machine Pro</li>
-                </ol><!-- Block  Breadcrumb-->
-
                 <div class="row">
 
                     <!-- Sidebar -->
                     <div class="col-lg-3 col-md-3 col-sidebar">
 
-                        <!-- Block  bestseller products-->
-                        <div class="block-sidebar block-sidebar-categorie">
-                            <div class="block-title">
-                                <strong>PRODUCT TYPES</strong>
-                            </div>
-                            <div class="block-content">
-                                <ul class="items">
-                                    <li class="parent">
-                                        <a href="">Dress</a>
-                                        <span class="toggle-submenu"></span>
-                                        <ul class="subcategory">
-                                            <li >
-                                                <a href="">subcategory 1</a>
-                                                
-                                            </li>
-                                            <li><a href="">subcategory 1</a></li>
-                                            <li><a href="">subcategory 1</a></li>
-                                            <li><a href="">subcategory 1</a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="">Bags</a>
-                                    </li>
-                                    <li class="parent">
-                                        <a href="">Cost &amp; Jackets</a>
-                                        <span class="toggle-submenu"></span>
-                                        <ul class="subcategory">
-                                            <li><a href="">subcategory 1</a></li>
-                                            <li><a href="">subcategory 1</a></li>
-                                            <li><a href="">subcategory 1</a></li>
-                                            <li><a href="">subcategory 1</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="parent">
-                                        <a href="">Beauty</a>
-                                        <span class="toggle-submenu"></span>
-                                        <ul class="subcategory">
-                                            <li><a href="">subcategory 1</a></li>
-                                            <li><a href="">subcategory 1</a></li>
-                                            <li><a href="">subcategory 1</a></li>
-                                            <li><a href="">subcategory 1</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="parent">
-                                        <a href="">Jewellery</a>
-                                        <span class="toggle-submenu"></span>
-                                        <ul class="subcategory">
-                                            <li><a href="">subcategory 1</a></li>
-                                            <li><a href="">subcategory 1</a></li>
-                                            <li><a href="">subcategory 1</a></li>
-                                            <li><a href="">subcategory 1</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="parent">
-                                        <a href="">Nightwear</a>
-                                        <span class="toggle-submenu"></span>
-                                        <ul class="subcategory">
-                                            <li><a href="">subcategory 1</a></li>
-                                            <li><a href="">subcategory 1</a></li>
-                                            <li><a href="">subcategory 1</a></li>
-                                            <li><a href="">subcategory 1</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="parent">
-                                        <a href="">Jumpers &amp; Cardigans</a>
-                                        <span class="toggle-submenu"></span>
-                                        <ul class="subcategory">
-                                            <li><a href="">subcategory 1</a></li>
-                                            <li><a href="">subcategory 1</a></li>
-                                            <li><a href="">subcategory 1</a></li>
-                                            <li><a href="">subcategory 1</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div><!-- Block  bestseller products-->
+                        <!-- Block  Breadcrumb-->
+                        
+                        <ol class="breadcrumb no-hide">
+                            <li><a href="#">Home    </a></li>
+                            <li class="active">Electronics</li>
+                        </ol>
+                       <!-- Block  Breadcrumb-->
 
                         <!-- block filter products -->
                         <div id="layered-filter-block" class="block-sidebar block-filter no-hide">
                             <div class="close-filter-products"><i class="fa fa-times" aria-hidden="true"></i></div>
                             <div class="block-title">
-                                <strong>FILTER SELECTION</strong>
+                                <strong>SHOP BY</strong>
                             </div>
                             <div class="block-content">
 
@@ -1000,42 +904,22 @@
                                         <ol class="items">
                                             <li class="item ">
                                                 <label>
-                                                    <input type="checkbox"><span>Tops <span class="count">(20)</span></span>
+                                                    <input type="checkbox"><span>Smartphone & Mp3 Player  </span>
                                                 </label>
                                             </li>
                                             <li class="item ">
                                                 <label>
-                                                    <input type="checkbox"><span>Network & Computer <span class="count">(20)</span></span>
+                                                    <input type="checkbox"><span>Network & Computer</span>
                                                 </label>
                                             </li>
                                             <li class="item ">
                                                 <label>
-                                                    <input type="checkbox"><span>Batteries & Chargers <span class="count">(20)</span></span>
+                                                    <input type="checkbox"><span>Batteries & Chargers</span>
                                                 </label>
                                             </li>
                                             <li class="item ">
                                                 <label>
-                                                    <input type="checkbox"><span>Dresses <span class="count">(20)</span></span>
-                                                </label>
-                                            </li>
-                                            <li class="item ">
-                                                <label>
-                                                    <input type="checkbox"><span>Knitted <span class="count">(20)</span></span>
-                                                </label>
-                                            </li>
-                                            <li class="item ">
-                                                <label>
-                                                    <input type="checkbox"><span>Pants <span class="count">(20)</span></span>
-                                                </label>
-                                            </li>
-                                            <li class="item ">
-                                                <label>
-                                                    <input type="checkbox"><span>Best selling <span class="count">(20)</span></span>
-                                                </label>
-                                            </li>
-                                            <li class="item ">
-                                                <label>
-                                                    <input type="checkbox"><span>Headphone & Headset <span class="count">(20)</span></span>
+                                                    <input type="checkbox"><span>Headphone & Headset</span>
                                                 </label>
                                             </li>
                                         </ol>
@@ -1047,74 +931,52 @@
                                     <div class="filter-options-title">Price</div>
                                     <div class="filter-options-content">
                                         <div class="slider-range">
-                                            
-                                            <div id="slider-range" ></div>
-                                            
                                             <div class="action">
                                                 <span class="price">
-                                                    <span>Range:</span>
-                                                    $<span id="amount-left"></span>
-                                                    -
-                                                    $<span id="amount-right"></span>
+                                                    <span id="amount-left"></span>
+                                                    <span id="amount-right"></span>
                                                 </span>
+
+                                                <button type="button" class="btn default"><span>Search</span></button>
                                             </div>
+                                            <div id="slider-range" ></div>
+                                            <span class="amount-min">$3</span>
+                                            <span class="amount-max">$6789</span>
                                         </div>
-                                        <ol class="items">
-                                            <li class="item ">
-                                                <label>
-                                                    <input type="checkbox"><span>$20 - $50 <span class="count">(20)</span>  </span>
-                                                </label>
-                                            </li>
-                                            <li class="item ">
-                                                <label>
-                                                    <input type="checkbox"><span>$50 - $100 <span class="count">(20)</span> </span>
-                                                </label>
-                                            </li>
-                                            <li class="item ">
-                                                <label>
-                                                    <input type="checkbox"><span>$100 - $250 <span class="count">(20)</span> </span>
-                                                </label>
-                                            </li>
-                                           
-                                        </ol>
                                     </div>
                                 </div><!-- filter price -->
 
-                                <!-- filter brad-->
-                                <div class="filter-options-item filter-options-brand">
-                                    <div class="filter-options-title">BRAND</div>
+                                <!-- filter Manufacture-->
+                                <div class="filter-options-item filter-options-manufacture">
+                                    <div class="filter-options-title">Manufacture</div>
                                     <div class="filter-options-content">
                                         <ol class="items">
                                             <li class="item ">
                                                 <label>
-                                                    <input type="checkbox"><span>Channelo <span class="count">(20)</span>  </span>
+                                                    <input type="checkbox"><span>Ercol  </span>
                                                 </label>
                                             </li>
                                             <li class="item ">
                                                 <label>
-                                                    <input type="checkbox"><span>Mamypokon <span class="count">(20)</span> </span>
+                                                    <input type="checkbox"><span>Duresta</span>
                                                 </label>
                                             </li>
                                             <li class="item ">
                                                 <label>
-                                                    <input type="checkbox"><span>Pamperson <span class="count">(20)</span> </span>
+                                                    <input type="checkbox"><span>G Plan</span>
                                                 </label>
                                             </li>
                                             <li class="item ">
                                                 <label>
-                                                    <input type="checkbox"><span>Pradano <span class="count">(20)</span> </span>
+                                                    <input type="checkbox"><span>Parker Knoll</span>
                                                 </label>
                                             </li>
                                             <li class="item ">
                                                 <label>
-                                                    <input type="checkbox"><span>Pumano <span class="count">(20)</span> </span>
+                                                    <input type="checkbox"><span>Collins & Hayes</span>
                                                 </label>
                                             </li>
-                                            <li class="item ">
-                                                <label>
-                                                    <input type="checkbox"><span>AME <span class="count">(20)</span> </span>
-                                                </label>
-                                            </li>
+
                                         </ol>
                                     </div>
                                 </div><!-- Filter Item -->
@@ -1164,7 +1026,16 @@
                                                     
                                                 </label>
                                             </li>
-                                            
+                                            <li class="item">
+                                                <label>
+                                                    <input type="checkbox">
+                                                    <span>
+                                                        <span class="text" >CYal</span>          
+                                                        <span class="count">(20)</span>
+                                                    </span>
+                                                    
+                                                </label>
+                                            </li>
                                             <li class="item">
                                                 <label>
                                                     <input type="checkbox">
@@ -1175,179 +1046,69 @@
                                                     
                                                 </label>
                                             </li>
-                                            
-                                            <li class="item">
-                                                <label>
-                                                    <input type="checkbox">
-                                                    <span>
-                                                        <span class="img" style="background-color: #964b00;"></span>          
-                                                        <span class="count">(20)</span>
-                                                    </span>
-                                                    
-                                                </label>
-                                            </li>
-                                            <li class="item">
-                                                <label>
-                                                    <input type="checkbox">
-                                                    <span>
-                                                        <span class="img" style="background-color: #faebd7;"></span>          
-                                                        <span class="count">(20)</span>
-                                                    </span>
-                                                    
-                                                </label>
-                                            </li>
-                                            <li class="item">
-                                                <label>
-                                                    <input type="checkbox">
-                                                    <span>
-                                                        <span class="img" style="background-color: #e84c3d;"></span>          
-                                                        <span class="count">(20)</span>
-                                                    </span>
-                                                    
-                                                </label>
-                                            </li>
-                                            <li class="item">
-                                                <label>
-                                                    <input type="checkbox">
-                                                    <span>
-                                                        <span class="img" style="background-color: #fccacd;"></span>          
-                                                        <span class="count">(20)</span>
-                                                    </span>
-                                                    
-                                                </label>
-                                            </li>
+                                           
                                            
                                         </ol>
                                     </div>
                                 </div><!-- Filter Item -->
 
-                                <!-- Filter Item  size-->
-                                <div class="filter-options-item filter-options-size">
-                                    <div class="filter-options-title">SIZE</div>
-                                    <div class="filter-options-content">
-                                        <ol class="items">
-                                            <li class="item ">
-                                                <label>
-                                                    <input type="checkbox"><span>X <span class="count">(20)</span></span>
-                                                </label>
-                                            </li>
-                                            <li class="item ">
-                                                <label>
-                                                    <input type="checkbox"><span>XXL <span class="count">(20)</span></span>
-                                                </label>
-                                            </li>
-                                            <li class="item ">
-                                                <label>
-                                                    <input type="checkbox"><span>XXL <span class="count">(20)</span></span>
-                                                </label>
-                                            </li>
-                                            <li class="item ">
-                                                <label>
-                                                    <input type="checkbox"><span>m <span class="count">(20)</span></span>
-                                                </label>
-                                            </li>
-                                            <li class="item ">
-                                                <label>
-                                                    <input type="checkbox"><span>L <span class="count">(20)</span></span>
-                                                </label>
-                                            </li>
-                                            <li class="item ">
-                                                <label>
-                                                    <input type="checkbox"><span>32 <span class="count">(20)</span></span>
-                                                </label>
-                                            </li>
-                                            <li class="item ">
-                                                <label>
-                                                    <input type="checkbox"><span>36 <span class="count">(20)</span></span>
-                                                </label>
-                                            </li>
-                                            <li class="item ">
-                                                <label>
-                                                    <input type="checkbox"><span>37 <span class="count">(20)</span></span>
-                                                </label>
-                                            </li>
-                                            <li class="item ">
-                                                <label>
-                                                    <input type="checkbox"><span>X <span class="count">(20)</span></span>
-                                                </label>
-                                            </li>
-                                            <li class="item ">
-                                                <label>
-                                                    <input type="checkbox"><span>XXL <span class="count">(20)</span></span>
-                                                </label>
-                                            </li>
-                                            <li class="item ">
-                                                <label>
-                                                    <input type="checkbox"><span>XXL <span class="count">(20)</span></span>
-                                                </label>
-                                            </li>
-                                            <li class="item ">
-                                                <label>
-                                                    <input type="checkbox"><span>m <span class="count">(20)</span></span>
-                                                </label>
-                                            </li>
-                                            
-                                        </ol>
-                                    </div>
-                                </div><!-- Filter Item  size-->
-
                             </div>
                         </div><!-- Filter -->
 
-                        <!-- block slide top -->
-                        <div class="block-sidebar block-banner-sidebar">
-                            <div class="owl-carousel" 
-                                data-nav="false" 
-                                data-dots="true" 
-                                data-margin="0" 
-                                data-items='1' 
-                                data-autoplayTimeout="700" 
-                                data-autoplay="true" 
-                                data-loop="true">
-                                <div class="item item1" >
-                                   <img src="images/media/banner-sidebar1.jpg" alt="images">
-                                </div>
-                                <div class="item item2" >
-                                   <img src="images/media/banner-sidebar1.jpg" alt="images">
-                                </div>
-                                <div class="item item3" >
-                                   <img src="images/media/banner-sidebar1.jpg" alt="images">
-                                </div>
+                        <!-- Block  Compare-->
+                        <div class="block-sidebar block-sidebar-compare">
+                            <div class="block-title">
+                                <strong>compare products</strong>
                             </div>
-                        </div><!-- block slide top -->
+                            <div class="block-content">
+                                You have no product to compare
+                            </div>
+                        </div><!-- Block  Compare-->
 
                         <!-- Block  bestseller products-->
                         <div class="block-sidebar block-sidebar-products">
                             <div class="block-title">
-                                <strong>SPECIAL PRODUCTS</strong>
+                                <strong>bestseller products</strong>
                             </div>
                             <div class="block-content">
-                                <div class="product-item product-item-opt-2">
+                                <div class="product-item">
                                     <div class="product-item-info">
                                         <div class="product-item-photo">
-                                            <a class="product-item-img" href=""><img alt="product name" src="images/media/index6/floor5-1.jpg"></a>
+                                            <a href="" class="product-item-img"><img src="images/media/index1/sidebar-bestseller1.jpg" alt="product name"></a>
                                         </div>
                                         <div class="product-item-detail">
-                                            <strong class="product-item-name"><a href="">Security Camera Size Flared</a></strong>
-                                            <div class="clearfix">
-                                                <div class="product-item-price">
-                                                    <span class="price">$45.00</span>
-                                                </div>
-                                                <div class="product-reviews-summary">
-                                                    <div class="rating-summary">
-                                                        <div title="70%" class="rating-result">
-                                                            <span style="width:70%">
-                                                                <span><span>70</span>% of <span>100</span></span>
-                                                            </span>
-                                                        </div>
-                                                    </div>
-                                                </div>
+                                            <strong class="product-item-name"><a href="">Washing Machine Pro</a></strong>
+                                            <div class="product-item-price">
+                                                <span class="price">$45.00</span>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="text-center">
-                                    <a href="" class="btn all-products">All products <i aria-hidden="true" class="fa fa-angle-double-right"></i></a>
+                                <div class="product-item">
+                                    <div class="product-item-info">
+                                        <div class="product-item-photo">
+                                            <a href="" class="product-item-img"><img src="images/media/index1/sidebar-bestseller2.jpg" alt="product name"></a>
+                                        </div>
+                                        <div class="product-item-detail">
+                                            <strong class="product-item-name"><a href="">Washing Machine Pro</a></strong>
+                                            <div class="product-item-price">
+                                                <span class="price">$45.00</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-item">
+                                    <div class="product-item-info">
+                                        <div class="product-item-photo">
+                                            <a href="" class="product-item-img"><img src="images/media/index1/sidebar-bestseller3.jpg" alt="product name"></a>
+                                        </div>
+                                        <div class="product-item-detail">
+                                            <strong class="product-item-name"><a href="">Washing Machine Pro </a></strong>
+                                            <div class="product-item-price">
+                                                <span class="price">$45.00</span>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div><!-- Block  bestseller products-->
@@ -1358,65 +1119,20 @@
                                 <strong>product tags</strong>
                             </div>
                             <div class="block-content">
-                                <ul>              
-                                    <li><a href="" class="lv2">actual</a></li>
-                                    <li><a href="" class="lv1">adorable</a></li>
-                                    <li><a href="" class="lv3">amaze</a></li>
-                                    <li><a href="" class="lv5">change</a></li>
-                                    <li><a href="" class="lv2">consider</a></li>
-                                    <li><a href="" class="lv1">delivery</a></li>
-                                    <li><a href="" class="lv1">Top</a></li>
-                                    <li><a href="" class="lv4">flexib</a></li>
-                                    <li><a href="" class="lv1">phenomenon </a></li>
+                                <ul>
+                                    <li><a href="">Top</a></li>
+                                    <li><a href="">Fashion</a></li>
+                                    <li><a href="">Collection Men</a></li>
+                                    <li><a href="">Collection Women</a></li>
+                                    <li><a href="">Gallery</a></li>
+                                    <li><a href="">New</a></li>
+                                    <li><a href="">Top</a></li>
+                                    <li><a href="">Fashion</a></li>
+                                    <li></li>
                                 </ul>
+                                <a href="" class="view-all">View all tags <i class="fa fa-caret-right" aria-hidden="true"></i></a>
                             </div>
                         </div><!-- Block  tags-->
-
-                        <!-- block slide top -->
-                        <div class="block-sidebar block-sidebar-testimonials">
-                            <div class="block-title">
-                                <strong>Testimonials</strong>
-                            </div>
-                            <div class="block-content">
-                                <div class="owl-carousel" 
-                                    data-nav="false" 
-                                    data-dots="true" 
-                                    data-margin="0" 
-                                    data-items='1' 
-                                    data-autoplayTimeout="700" 
-                                    data-autoplay="true" 
-                                    data-loop="true">
-                                    <div class="item " >
-                                       <strong class="name">Roverto & Maria</strong>
-                                       <div class="avata">
-                                            <img src="images/media/avata.jpg" alt="avata">
-                                       </div>
-                                       <div class="des">
-                                        "Your product needs to improve more. To suit the needs and update your image up"
-                                       </div>
-                                    </div>
-                                    <div class="item " >
-                                       <strong class="name">Roverto & Maria</strong>
-                                       <div class="avata">
-                                            <img src="images/media/avata.jpg" alt="avata">
-                                       </div>
-                                       <div class="des">
-                                        "Your product needs to improve more. To suit the needs and update your image up"
-                                       </div>
-                                    </div>
-                                    <div class="item " >
-                                       <strong class="name">Roverto & Maria</strong>
-                                       <div class="avata">
-                                            <img src="images/media/avata.jpg" alt="avata">
-                                       </div>
-                                       <div class="des">
-                                        "Your product needs to improve more. To suit the needs and update your image up"
-                                       </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><!-- block slide top -->
-
 
                     </div><!-- Sidebar -->
 
@@ -1425,33 +1141,10 @@
 
                         <!-- images categori -->
                         <div class="category-view">
-                            <div class="owl-carousel " 
-                                data-nav="true" 
-                                data-dots="false" 
-                                data-margin="0" 
-                                data-items='1' 
-                                data-autoplayTimeout="700" 
-                                data-autoplay="true" 
-                                data-loop="true">
-                                <div class="item " >
-                                   <a href=""><img src="images/media/category-images1.jpg" alt="category-images"></a>
-                                </div>
-                                <div class="item " >
-                                    <a href=""><img src="images/media/category-images2.jpg" alt="category-images"></a>
-                                </div>
+                            <div class="category-image">
+                                <img alt="category-images" src="images/media/index1/category-images.jpg" >
                             </div>
                         </div><!-- images categori -->
-
-                        <!-- link categori -->
-                        <ul class="category-links">
-                            <li class="current-cate"><a href="">All Products</a></li>
-                            <li><a href="">Tops</a></li>
-                            <li><a href="">Dresses</a></li>
-                            <li><a href="">Bags & Shoes</a></li>
-                            <li><a href="">Scaves</a></li>
-                            <li><a href="">Pants</a></li>
-                            <li><a href="">Blouses</a></li>
-                        </ul><!-- link categori -->
 
                         <!-- Toolbar -->
                         <div class=" toolbar-products toolbar-top">
@@ -1459,12 +1152,9 @@
                             <div class="btn-filter-products">
                                 <span>Filter</span>
                             </div>
-
-                            <h1 class="cate-title">Electronics</h1>
-
                             <div class="modes">
                                 <strong  class="label">View as:</strong>
-                                <a  href="Grid_Product---Main.html" class="modes-mode  mode-grid" title="Grid">
+                                <a  href="grid.html" class="modes-mode  mode-grid" title="Grid">
                                     <span>grid</span>
                                 </a>
                                 <strong  title="List" class="active modes-mode mode-list">
@@ -1481,7 +1171,6 @@
                                         <option value="name">Name</option>
                                         <option value="price">Price</option>
                                     </select>
-                                    <a href="" class="sorter-action"></a>
                                 </div><!-- Short by -->
 
                                 <div class="toolbar-limiter">
@@ -1490,9 +1179,9 @@
                                     </label>
                                    
                                     <select class="limiter-options form-control" >
-                                        <option selected="selected" value="9">Show 18</option>
-                                        <option value="15">Show 15</option>
-                                        <option value="30">Show 30</option>
+                                        <option selected="selected" value="6">6</option>
+                                        <option value="15">15</option>
+                                        <option value="30">30</option>
                                     </select>
                                     
                                 </div><!-- Show per page -->
@@ -1527,350 +1216,276 @@
                         <!-- List Products -->
                         <div class="products  products-list">
                             <ol class="product-items row">
-                                <li class="col-sm-12 product-item ">
-                                    <div class="product-item-opt-2">
-                                        <div class="product-item-info">
-                                            <div class="product-item-photo">
-                                                <a href="" class="product-item-img"><img src="images/media/list1.jpg" alt="product name"></a>
-                                                
-                                                <span class="product-item-label label-price">30% <span>off</span></span>
+                                <li class="col-sm-12 product-item product-item-opt-0">
+                                    <div class="product-item-info">
+                                        <div class="product-item-photo">
+                                            <a href="" class="product-item-img"><img src="images/media/index1/Grid_Products1.jpg" alt="product name"></a>
+                                        </div>
+                                        <div class="product-item-detail">
+                                            <strong class="product-item-name"><a href="">Washing Machine Pro</a></strong>
+                                            <div class="product-item-review">
+                                                <a href="" class="action">Wrire Your Rivew</a>
                                             </div>
-                                            <div class="product-item-detail">
-                                                <strong class="product-item-name"><a href="">Multi-Directions Camera</a></strong>
-                                                <div class="clearfix product-info-des">
-                                                    
-                                                    <div class="product-reviews-summary">
-                                                        <div class="rating-summary">
-                                                            <div class="rating-result" title="80%">
-                                                                <span style="width:80%">
-                                                                    <span><span>80</span>% of <span>100</span></span>
-                                                                </span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="product-item-price">
-                                                        <span class="price">$45.00</span>
-                                                        <span class="old-price">$52.00</span>
-                                                    </div>
+                                            <div class="product-item-price">
+                                                <span class="price">$45.00</span>
+                                            </div>
+                                            <div class="product-item-des">
+                                                Cum altera mandamus in, mea verear disputationi et. Vel regione discere ut, legere expetenda ut eos. In nam nibh invenire similique. Atqui mollis ea his, ius graecis accommodare te. No eam tota nostrum cotidieque.
+                                            </div>
+                                            <div class="product-item-actions">
+                                                <button class="btn btn-cart" type="button"><span>Add to Cart</span></button>
+                                                <a href="" class="btn btn-wishlist"><span>wishlist</span></a>
+                                                <a href="" class="btn btn-compare"><span>compare</span></a>
                                                 
-                                                    <div class="product-item-code">
-                                                        <span class="title">Item Code:</span> #453217907 
-                                                    </div>
-                                                    <div class="product-item-stock">
-                                                        <span class="title">Availability:</span> In stock
-                                                    </div>
-                                                    <div class="product-item-actions">
-                                                        <button class="btn btn-cart" type="button"><span>Add to Cart</span></button>
-                                                        <a href="" class="btn btn-wishlist"><span>wishlist</span></a>
-                                                        <a href="" class="btn btn-compare"><span>compare</span></a>
-                                                        <a href="" class="btn btn-quickview"><span>quickview</span></a>
-                                                    </div>
-                                                </div>
-                                                <div class="product-item-des">
-                                                    Vestibulum eu odio. Suspendisse potenti. Morbi mollis tellus ac sapien. Praesent egestas tristique nibh. Nullam dictum felis eu pede mollis pretium. Fusce egestas elit eget lorem. In auctor lobortis lacus. Suspendisse faucibus, nunc et pellentesque egestas, lacus ante convallis tellus, vitae iaculis lacus elit id tortor.
-                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </li>
-                                <li class="col-sm-12 product-item ">
-                                    <div class="product-item-opt-2">
-                                        <div class="product-item-info">
-                                            <div class="product-item-photo">
-                                                <a href="" class="product-item-img"><img src="images/media/list2.jpg" alt="product name"></a>
-                                               
+                                <li class="col-sm-12 product-item product-item-opt-0">
+                                    <div class="product-item-info">
+                                        <div class="product-item-photo">
+                                            <a href="" class="product-item-img"><img src="images/media/index1/Grid_Products2.jpg" alt="product name"></a>
+                                        </div>
+                                        <div class="product-item-detail">
+                                            <strong class="product-item-name"><a href="">Washing Machine Pro</a></strong>
+                                            <div class="product-item-review">
+                                                <a href="" class="action">Wrire Your Rivew</a>
                                             </div>
-                                            <div class="product-item-detail">
-                                                <strong class="product-item-name"><a href="">Black Silver Digital Camera</a></strong>
-                                                <div class="clearfix product-info-des">
-                                                    
-                                                    <div class="product-reviews-summary">
-                                                        <div class="rating-summary">
-                                                            <div class="rating-result" title="80%">
-                                                                <span style="width:80%">
-                                                                    <span><span>80</span>% of <span>100</span></span>
-                                                                </span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="product-item-price">
-                                                        <span class="price">$45.00</span>
-                                                        <span class="old-price">$52.00</span>
-                                                    </div>
+                                            <div class="product-item-price">
+                                                <span class="price">$45.00</span>
+                                            </div>
+                                            <div class="product-item-des">
+                                                Cum altera mandamus in, mea verear disputationi et. Vel regione discere ut, legere expetenda ut eos. In nam nibh invenire similique. Atqui mollis ea his, ius graecis accommodare te. No eam tota nostrum cotidieque.
+                                            </div>
+                                            <div class="product-item-actions">
+                                                <button class="btn btn-cart" type="button"><span>Add to Cart</span></button>
+                                                <a href="" class="btn btn-wishlist"><span>wishlist</span></a>
+                                                <a href="" class="btn btn-compare"><span>compare</span></a>
                                                 
-                                                    <div class="product-item-code">
-                                                        <span class="title">Item Code:</span> #453217907 
-                                                    </div>
-                                                    <div class="product-item-stock">
-                                                        <span class="title">Availability:</span> In stock
-                                                    </div>
-                                                    <div class="product-item-actions">
-                                                        <button class="btn btn-cart" type="button"><span>Add to Cart</span></button>
-                                                        <a href="" class="btn btn-wishlist"><span>wishlist</span></a>
-                                                        <a href="" class="btn btn-compare"><span>compare</span></a>
-                                                        <a href="" class="btn btn-quickview"><span>quickview</span></a>
-                                                    </div>
-                                                </div>
-                                                <div class="product-item-des">
-                                                    Vestibulum eu odio. Suspendisse potenti. Morbi mollis tellus ac sapien. Praesent egestas tristique nibh. Nullam dictum felis eu pede mollis pretium. Fusce egestas elit eget lorem. In auctor lobortis lacus. Suspendisse faucibus, nunc et pellentesque egestas, lacus ante convallis tellus, vitae iaculis lacus elit id tortor.
-                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </li>
-                                <li class="col-sm-12 product-item ">
-                                    <div class="product-item-opt-2">
-                                        <div class="product-item-info">
-                                            <div class="product-item-photo">
-                                                <a href="" class="product-item-img"><img src="images/media/list3.jpg" alt="product name"></a>
-                                                
-                                                
+                                <li class="col-sm-12 product-item product-item-opt-0">
+                                    <div class="product-item-info">
+                                        <div class="product-item-photo">
+                                            <a href="" class="product-item-img"><img src="images/media/index1/Grid_Products3.jpg" alt="product name"></a>
+                                        </div>
+                                        <div class="product-item-detail">
+                                            <strong class="product-item-name"><a href="">Washing Machine Pro</a></strong>
+                                            <div class="product-item-review">
+                                                <a href="" class="action">Wrire Your Rivew</a>
                                             </div>
-                                            <div class="product-item-detail">
-                                                <strong class="product-item-name"><a href="">US Security Digital Camera</a></strong>
-                                                <div class="clearfix product-info-des">
-                                                    
-                                                    <div class="product-reviews-summary">
-                                                        <div class="rating-summary">
-                                                            <div class="rating-result" title="80%">
-                                                                <span style="width:80%">
-                                                                    <span><span>80</span>% of <span>100</span></span>
-                                                                </span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="product-item-price">
-                                                        <span class="price">$45.00</span>
-                                                        <span class="old-price">$52.00</span>
-                                                    </div>
+                                            <div class="product-item-price">
+                                                <span class="price">$45.00</span>
+                                            </div>
+                                            <div class="product-item-des">
+                                                Cum altera mandamus in, mea verear disputationi et. Vel regione discere ut, legere expetenda ut eos. In nam nibh invenire similique. Atqui mollis ea his, ius graecis accommodare te. No eam tota nostrum cotidieque.
+                                            </div>
+                                            <div class="product-item-actions">
+                                                <button class="btn btn-cart" type="button"><span>Add to Cart</span></button>
+                                                <a href="" class="btn btn-wishlist"><span>wishlist</span></a>
+                                                <a href="" class="btn btn-compare"><span>compare</span></a>
                                                 
-                                                    <div class="product-item-code">
-                                                        <span class="title">Item Code:</span> #453217907 
-                                                    </div>
-                                                    <div class="product-item-stock">
-                                                        <span class="title">Availability:</span> In stock
-                                                    </div>
-                                                    <div class="product-item-actions">
-                                                        <button class="btn btn-cart" type="button"><span>Add to Cart</span></button>
-                                                        <a href="" class="btn btn-wishlist"><span>wishlist</span></a>
-                                                        <a href="" class="btn btn-compare"><span>compare</span></a>
-                                                        <a href="" class="btn btn-quickview"><span>quickview</span></a>
-                                                    </div>
-                                                </div>
-                                                <div class="product-item-des">
-                                                    Vestibulum eu odio. Suspendisse potenti. Morbi mollis tellus ac sapien. Praesent egestas tristique nibh. Nullam dictum felis eu pede mollis pretium. Fusce egestas elit eget lorem. In auctor lobortis lacus. Suspendisse faucibus, nunc et pellentesque egestas, lacus ante convallis tellus, vitae iaculis lacus elit id tortor.
-                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </li>
-                                <li class="col-sm-12 product-item ">
-                                    <div class="product-item-opt-2">
-                                        <div class="product-item-info">
-                                            <div class="product-item-photo">
-                                                <a href="" class="product-item-img"><img src="images/media/list4.jpg" alt="product name"></a>
-                                                
-                                                
+                                <li class="col-sm-12 product-item product-item-opt-0">
+                                    <div class="product-item-info">
+                                        <div class="product-item-photo">
+                                            <a href="" class="product-item-img"><img src="images/media/index1/Grid_Products4.jpg" alt="product name"></a>
+                                        </div>
+                                        <div class="product-item-detail">
+                                            <strong class="product-item-name"><a href="">Washing Machine Pro</a></strong>
+                                            <div class="product-item-review">
+                                                <a href="" class="action">Wrire Your Rivew</a>
                                             </div>
-                                            <div class="product-item-detail">
-                                                <strong class="product-item-name"><a href="">IZO White Siver Cameara</a></strong>
-                                                <div class="clearfix product-info-des">
-                                                    
-                                                    <div class="product-reviews-summary">
-                                                        <div class="rating-summary">
-                                                            <div class="rating-result" title="80%">
-                                                                <span style="width:80%">
-                                                                    <span><span>80</span>% of <span>100</span></span>
-                                                                </span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="product-item-price">
-                                                        <span class="price">$45.00</span>
-                                                        <span class="old-price">$52.00</span>
-                                                    </div>
+                                            <div class="product-item-price">
+                                                <span class="price">$45.00</span>
+                                            </div>
+                                            <div class="product-item-des">
+                                                Cum altera mandamus in, mea verear disputationi et. Vel regione discere ut, legere expetenda ut eos. In nam nibh invenire similique. Atqui mollis ea his, ius graecis accommodare te. No eam tota nostrum cotidieque.
+                                            </div>
+                                            <div class="product-item-actions">
+                                                <button class="btn btn-cart" type="button"><span>Add to Cart</span></button>
+                                                <a href="" class="btn btn-wishlist"><span>wishlist</span></a>
+                                                <a href="" class="btn btn-compare"><span>compare</span></a>
                                                 
-                                                    <div class="product-item-code">
-                                                        <span class="title">Item Code:</span> #453217907 
-                                                    </div>
-                                                    <div class="product-item-stock">
-                                                        <span class="title">Availability:</span> In stock
-                                                    </div>
-                                                    <div class="product-item-actions">
-                                                        <button class="btn btn-cart" type="button"><span>Add to Cart</span></button>
-                                                        <a href="" class="btn btn-wishlist"><span>wishlist</span></a>
-                                                        <a href="" class="btn btn-compare"><span>compare</span></a>
-                                                        <a href="" class="btn btn-quickview"><span>quickview</span></a>
-                                                    </div>
-                                                </div>
-                                                <div class="product-item-des">
-                                                    Vestibulum eu odio. Suspendisse potenti. Morbi mollis tellus ac sapien. Praesent egestas tristique nibh. Nullam dictum felis eu pede mollis pretium. Fusce egestas elit eget lorem. In auctor lobortis lacus. Suspendisse faucibus, nunc et pellentesque egestas, lacus ante convallis tellus, vitae iaculis lacus elit id tortor.
-                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </li>
-                                <li class="col-sm-12 product-item ">
-                                    <div class="product-item-opt-2">
-                                        <div class="product-item-info">
-                                            <div class="product-item-photo">
-                                                <a href="" class="product-item-img"><img src="images/media/list5.jpg" alt="product name"></a>
-                                                
-                                               
+                                <li class="col-sm-12 product-item product-item-opt-0">
+                                    <div class="product-item-info">
+                                        <div class="product-item-photo">
+                                            <a href="" class="product-item-img"><img src="images/media/index1/Grid_Products5.jpg" alt="product name"></a>
+                                        </div>
+                                        <div class="product-item-detail">
+                                            <strong class="product-item-name"><a href="">Washing Machine Pro</a></strong>
+                                            <div class="product-item-review">
+                                                <a href="" class="action">Wrire Your Rivew</a>
                                             </div>
-                                            <div class="product-item-detail">
-                                                <strong class="product-item-name"><a href="">Titan Digital Camera</a></strong>
-                                                <div class="clearfix product-info-des">
-                                                    
-                                                    <div class="product-reviews-summary">
-                                                        <div class="rating-summary">
-                                                            <div class="rating-result" title="80%">
-                                                                <span style="width:80%">
-                                                                    <span><span>80</span>% of <span>100</span></span>
-                                                                </span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="product-item-price">
-                                                        <span class="price">$45.00</span>
-                                                        <span class="old-price">$52.00</span>
-                                                    </div>
+                                            <div class="product-item-price">
+                                                <span class="price">$45.00</span>
+                                            </div>
+                                            <div class="product-item-des">
+                                                Cum altera mandamus in, mea verear disputationi et. Vel regione discere ut, legere expetenda ut eos. In nam nibh invenire similique. Atqui mollis ea his, ius graecis accommodare te. No eam tota nostrum cotidieque.
+                                            </div>
+                                            <div class="product-item-actions">
+                                                <button class="btn btn-cart" type="button"><span>Add to Cart</span></button>
+                                                <a href="" class="btn btn-wishlist"><span>wishlist</span></a>
+                                                <a href="" class="btn btn-compare"><span>compare</span></a>
                                                 
-                                                    <div class="product-item-code">
-                                                        <span class="title">Item Code:</span> #453217907 
-                                                    </div>
-                                                    <div class="product-item-stock">
-                                                        <span class="title">Availability:</span> In stock
-                                                    </div>
-                                                    <div class="product-item-actions">
-                                                        <button class="btn btn-cart" type="button"><span>Add to Cart</span></button>
-                                                        <a href="" class="btn btn-wishlist"><span>wishlist</span></a>
-                                                        <a href="" class="btn btn-compare"><span>compare</span></a>
-                                                        <a href="" class="btn btn-quickview"><span>quickview</span></a>
-                                                    </div>
-                                                </div>
-                                                <div class="product-item-des">
-                                                    Vestibulum eu odio. Suspendisse potenti. Morbi mollis tellus ac sapien. Praesent egestas tristique nibh. Nullam dictum felis eu pede mollis pretium. Fusce egestas elit eget lorem. In auctor lobortis lacus. Suspendisse faucibus, nunc et pellentesque egestas, lacus ante convallis tellus, vitae iaculis lacus elit id tortor.
-                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </li>
-                                <li class="col-sm-12 product-item ">
-                                    <div class="product-item-opt-2">
-                                        <div class="product-item-info">
-                                            <div class="product-item-photo">
-                                                <a href="" class="product-item-img"><img src="images/media/list6.jpg" alt="product name"></a>
-                                                
-                                                
+                                <li class="col-sm-12 product-item product-item-opt-0">
+                                    <div class="product-item-info">
+                                        <div class="product-item-photo">
+                                            <a href="" class="product-item-img"><img src="images/media/index1/Grid_Products6.jpg" alt="product name"></a>
+                                        </div>
+                                        <div class="product-item-detail">
+                                            <strong class="product-item-name"><a href="">Washing Machine Pro</a></strong>
+                                            <div class="product-item-review">
+                                                <a href="" class="action">Wrire Your Rivew</a>
                                             </div>
-                                            <div class="product-item-detail">
-                                                <strong class="product-item-name"><a href="">Canon Digital Camera 30X</a></strong>
-                                                <div class="clearfix product-info-des">
-                                                    
-                                                    <div class="product-reviews-summary">
-                                                        <div class="rating-summary">
-                                                            <div class="rating-result" title="80%">
-                                                                <span style="width:80%">
-                                                                    <span><span>80</span>% of <span>100</span></span>
-                                                                </span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="product-item-price">
-                                                        <span class="price">$45.00</span>
-                                                        <span class="old-price">$52.00</span>
-                                                    </div>
+                                            <div class="product-item-price">
+                                                <span class="price">$45.00</span>
+                                            </div>
+                                            <div class="product-item-des">
+                                                Cum altera mandamus in, mea verear disputationi et. Vel regione discere ut, legere expetenda ut eos. In nam nibh invenire similique. Atqui mollis ea his, ius graecis accommodare te. No eam tota nostrum cotidieque.
+                                            </div>
+                                            <div class="product-item-actions">
+                                                <button class="btn btn-cart" type="button"><span>Add to Cart</span></button>
+                                                <a href="" class="btn btn-wishlist"><span>wishlist</span></a>
+                                                <a href="" class="btn btn-compare"><span>compare</span></a>
                                                 
-                                                    <div class="product-item-code">
-                                                        <span class="title">Item Code:</span> #453217907 
-                                                    </div>
-                                                    <div class="product-item-stock">
-                                                        <span class="title">Availability:</span> In stock
-                                                    </div>
-                                                    <div class="product-item-actions">
-                                                        <button class="btn btn-cart" type="button"><span>Add to Cart</span></button>
-                                                        <a href="" class="btn btn-wishlist"><span>wishlist</span></a>
-                                                        <a href="" class="btn btn-compare"><span>compare</span></a>
-                                                        <a href="" class="btn btn-quickview"><span>quickview</span></a>
-                                                    </div>
-                                                </div>
-                                                <div class="product-item-des">
-                                                    Vestibulum eu odio. Suspendisse potenti. Morbi mollis tellus ac sapien. Praesent egestas tristique nibh. Nullam dictum felis eu pede mollis pretium. Fusce egestas elit eget lorem. In auctor lobortis lacus. Suspendisse faucibus, nunc et pellentesque egestas, lacus ante convallis tellus, vitae iaculis lacus elit id tortor.
-                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </li>
-                                <li class="col-sm-12 product-item ">
-                                    <div class="product-item-opt-2">
-                                        <div class="product-item-info">
-                                            <div class="product-item-photo">
-                                                <a href="" class="product-item-img"><img src="images/media/list7.jpg" alt="product name"></a>
-                                                
-                                            </div>
-                                            <div class="product-item-detail">
-                                                <strong class="product-item-name"><a href="">Canon Digital Camera EOS</a></strong>
-                                                <div class="clearfix product-info-des">
-                                                    
-                                                    <div class="product-reviews-summary">
-                                                        <div class="rating-summary">
-                                                            <div class="rating-result" title="80%">
-                                                                <span style="width:80%">
-                                                                    <span><span>80</span>% of <span>100</span></span>
-                                                                </span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="product-item-price">
-                                                        <span class="price">$45.00</span>
-                                                        <span class="old-price">$52.00</span>
-                                                    </div>
-                                                
-                                                    <div class="product-item-code">
-                                                        <span class="title">Item Code:</span> #453217907 
-                                                    </div>
-                                                    <div class="product-item-stock">
-                                                        <span class="title">Availability:</span> In stock
-                                                    </div>
-                                                    <div class="product-item-actions">
-                                                        <button class="btn btn-cart" type="button"><span>Add to Cart</span></button>
-                                                        <a href="" class="btn btn-wishlist"><span>wishlist</span></a>
-                                                        <a href="" class="btn btn-compare"><span>compare</span></a>
-                                                        <a href="" class="btn btn-quickview"><span>quickview</span></a>
-                                                    </div>
-                                                </div>
-                                                <div class="product-item-des">
-                                                    Vestibulum eu odio. Suspendisse potenti. Morbi mollis tellus ac sapien. Praesent egestas tristique nibh. Nullam dictum felis eu pede mollis pretium. Fusce egestas elit eget lorem. In auctor lobortis lacus. Suspendisse faucibus, nunc et pellentesque egestas, lacus ante convallis tellus, vitae iaculis lacus elit id tortor.
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-
+                               
                             </ol><!-- list product -->
                         </div> <!-- List Products -->
 
-                        
+                        <!-- Toolbar -->
+                        <div class=" toolbar-products toolbar-bottom">
+
+                            <div class="modes">
+                                <strong  class="label">View as:</strong>
+                                <a  href="grid.html" class="modes-mode  mode-grid" title="Grid">
+                                    <span>grid</span>
+                                </a>
+                                <strong  title="List" class="active modes-mode mode-list">
+                                    <span>list</span>
+                                </strong>
+                            </div><!-- View as -->
+                           
+                            <div class="toolbar-option">
+
+                                <div class="toolbar-sorter ">
+                                    <label    class="label">Short by:</label>
+                                    <select class="sorter-options form-control" >
+                                        <option selected="selected" value="position">Position</option>
+                                        <option value="name">Name</option>
+                                        <option value="price">Price</option>
+                                    </select>
+                                </div><!-- Short by -->
+
+                                <div class="toolbar-limiter">
+                                    <label   class="label">
+                                        <span>Show:</span>
+                                    </label>
+                                   
+                                    <select class="limiter-options form-control" >
+                                        <option selected="selected" value="6">6</option>
+                                        <option value="15">15</option>
+                                        <option value="30">30</option>
+                                    </select>
+                                    
+                                </div><!-- Show per page -->
+
+                            </div>
+
+                            <ul class="pagination">
+                                <li>
+                                    <a href="#">
+                                        <span><i aria-hidden="true" class="fa fa-angle-left"></i></span>
+                                    </a>
+                                </li>
+                                
+                                <li class="active">
+                                    <a href="#">1</a>
+                                </li>
+                                <li>
+                                    <a href="#">2</a>
+                                </li>
+                                <li>
+                                    <a href="#">3</a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span><i aria-hidden="true" class="fa fa-angle-right"></i></span>
+                                    </a>
+                                </li>
+                            </ul>
+
+                        </div><!-- Toolbar -->
 
                     </div><!-- Main Content -->
                     
                 </div>
             </div>
 
+            <!-- block  service-->
+            <div class="block-service">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="item">
+                                <span class="icon">
+                                    <img src="images/icon/index1/service1.png" alt="service">
+                                </span>
+                                <strong class="title">Member Safe Shopping</strong>
+                                <span>Safe Shopping Guarantee</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="item">
+                                <span class="icon">
+                                    <img src="images/icon/index1/service2.png" alt="service">
+                                </span>
+                                <strong class="title">30- day return products</strong>
+                                <span>Moneyback guarantee</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="item">
+                                <span class="icon">
+                                    <img src="images/icon/index1/service3.png" alt="service">
+                                </span>
+                                <strong class="title">Free Shipping worldwide</strong>
+                                <span>On oder over $100</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- block  service-->
 
-		</main><!-- end MAIN -->
+        </main><!-- end MAIN -->
 
-		<!-- FOOTER -->
-        <footer class="site-footer footer-opt-6">
+        <!-- FOOTER -->
+        <footer class="site-footer footer-opt-1">
 
             <div class="container">
                 <div class="footer-column">
                 
                     <div class="row">
-                        <div class="col-md-3 col-lg-3 col-sm-6 col">
+                        <div class="col-md-4 col-lg-4 col-sm-6">
                             <strong class="logo-footer">
-                                <a href=""><img src="images/media/index6/logo-footer.png" alt="logo"></a>
+                                <a href=""><img src="images/media/index1/logo-footer.png" alt="logo"></a>
                             </strong>
 
                             <table class="address">
@@ -1888,43 +1503,35 @@
                                 </tr>
                             </table>
                         </div>
-                        <div class="col-md-2 col-lg-2 col-sm-3 col">
+                        <div class="col-md-3 col-lg-2 col-sm-6">
                             <div class="links">
-                            <h3 class="title">Company</h3>
+                            <h3 class="title">Customer Service</h3>
                             <ul>
-                                <li><a href="">About Us</a></li>
-                                <li><a href="">Testimonials</a></li>
-                                <li><a href="">Affiliate Program</a></li>
-                                <li><a href="">Terms & Conditions</a></li>
-                                <li><a href="">Terms & Conditions</a></li>
+                                <li><a href="">Advanced Search</a></li>
+                                <li><a href="">Orders And Returns</a></li>
+                                <li><a href="">Contacts US</a></li>
+                                <li><a href="">RSS</a></li>
+                                <li><a href="">Help & FAQ'S</a></li>
+                                <li><a href="">Consultant</a></li>
+                                <li><a href="">Store Locations</a></li>
                             </ul>
                             </div>
                         </div>
-                        <div class="col-md-2 col-lg-2 col-sm-3 col">
+                        <div class="col-md-2 col-lg-2 col-sm-6">
                             <div class="links">
-                            <h3 class="title">My Account</h3>
+                            <h3 class="title">Products</h3>
                             <ul>
                                 <li><a href="">My Order</a></li>
                                 <li><a href="">My Wishlist</a></li>
                                 <li><a href="">My Credit Slip</a></li>
                                 <li><a href="">My Addresses</a></li>
-                                <li><a href="">My Account</a></li>
+                                <li><a href="">New In</a></li>
+                                <li><a href="">Women</a></li>
+                                <li><a href="">Lookbook</a></li>
                             </ul>
                             </div>
                         </div>
-                        <div class="col-md-2 col-lg-2 col-sm-6 col">
-                            <div class="links">
-                            <h3 class="title">Support</h3>
-                            <ul>
-                                <li><a href="">New User Guide</a></li>
-                                <li><a href="">Help Center</a></li>
-                                <li><a href="">Refund Policy</a></li>
-                                <li><a href="">Report Spam</a></li>
-                                <li><a href="">FAQ</a></li>
-                            </ul>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-lg-3 col-sm-6 col">
+                        <div class="col-md-3 col-lg-4 col-sm-6">
                             <div class="block-newletter">
                                 <div class="block-title">NEWSLETTER</div>
                                 <div class="block-content">
@@ -1932,7 +1539,7 @@
                                     <div class="input-group">
                                         <input type="text" class="form-control" placeholder="Your Email Address">
                                         <span class="input-group-btn">
-                                            <button class="btn btn-subcribe" type="button"><span>ok</span></button>
+                                            <button class="btn btn-subcribe" type="button"><span>Subcribe</span></button>
                                         </span>
                                     </div>
                                 </form>
@@ -1941,130 +1548,15 @@
                             <div class="block-social">
                                 <div class="block-title">Let’s Socialize </div>
                                 <div class="block-content">
-                                    <a href="" class="sh-facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                    <a href="" class="sh-pinterest"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
-                                    <a href="" class="sh-vk"><i class="fa fa-vk" aria-hidden="true"></i></a>
-                                    <a href="" class="sh-twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                    <a href="" class="sh-google"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                    <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                    <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                    <a href=""><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                                    <a href=""><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+                                    <a href=""><i class="fa fa-camera" aria-hidden="true"></i></a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-
-                <div class="payment-methods">
-                    <div class="block-title">
-                        Accepted Payment Methods
-                    </div>
-                    <div class="block-content">
-                        <img alt="payment" src="images/media/index6/payment1.png">
-                        <img alt="payment" src="images/media/index6/payment2.png">
-                        <img alt="payment" src="images/media/index6/payment3.png">
-                        <img alt="payment" src="images/media/index6/payment4.png">
-                        <img alt="payment" src="images/media/index6/payment5.png">
-                        <img alt="payment" src="images/media/index6/payment6.png">
-                        <img alt="payment" src="images/media/index6/payment7.png">
-                        <img alt="payment" src="images/media/index6/payment8.png">
-                        <img alt="payment" src="images/media/index6/payment9.png">
-                        <img alt="payment" src="images/media/index6/payment10.png">
-                    </div>
-                </div>
-
-                <div class="footer-links">
-                    
-                        
-                    <ul class="links">
-                        <li><strong class="title">HOT SEARCHED KEYWORDS:</strong></li>
-                        <li><a href="">Xiaomi Mi3 </a></li>
-                        <li><a href="">Digiflip Pro XT 712 Tablet</a></li>
-                        <li><a href="">Mi 3 Phones  </a></li>
-                        <li><a href="">Iphone 6 Plus  </a></li>
-                        <li><a href="">Women's Messenger Bags</a></li>
-                        <li><a href="">Wallets   </a></li>
-                        <li><a href="">Women's Clutches   </a></li>
-                        <li><a href="">Backpacks Totes</a></li>
-                    </ul>
-                    
-                    
-                        
-                    <ul class="links">
-                        <li><strong class="title">tvs: </strong></li>
-                        <li><a href="">Sony TV  </a></li>
-                        <li><a href=""> Samsung TV  </a></li>
-                        <li><a href="">LG TV  </a></li>
-                        <li><a href="">Panasonic TV  </a></li>
-                        <li><a href=""> Onida TV  </a></li>
-                        <li><a href=""> Toshiba TV  </a></li>
-                        <li><a href=""> Philips TV</a></li>
-                        <li><a href="">Micromax TV</a></li>
-                        <li><a href="">LED TV </a></li>
-                        <li><a href="">  LCD TV  </a></li>
-                        <li><a href="">Plasma TV </a></li>
-                        <li><a href="">3D TV    </a></li>
-                        <li><a href="">Smart TV </a></li>
-                    </ul>
-                   
-                   
-                        
-                    <ul  class="links">
-                        <li><strong class="title">MOBILES: </strong></li>
-                        <li><a href="">Moto E </a></li>
-                        <li><a href=""> Samsung Mobile </a></li>
-                        <li><a href="">Micromax Mobile</a></li>
-                        <li><a href="">Nokia Mobile </a></li>
-                        <li><a href=""> HTC Mobile </a></li>
-                        <li><a href="">Sony Mobile  </a></li>
-                        <li><a href=""> Apple Mobile  </a></li>
-                        <li><a href=""> LG Mobile  </a></li>
-                        <li><a href="">Karbonn Mobile</a></li>
-                    </ul>
-                   
-                        
-                    <ul class="links">
-                        <li><strong class="title">LAPTOPS:</strong></li>
-                        <li><a href="">Apple Laptop  </a></li>
-                        <li><a href="">Acer Laptop </a></li>
-                        <li><a href="">Samsung Laptop</a></li>
-                        <li><a href="">Lenovo Laptop </a></li>
-                        <li><a href="">Sony Laptop</a></li>
-                        <li><a href="">Dell Laptop</a></li>
-                        <li><a href="">Asus Laptop </a></li>
-                        <li><a href="">  Toshiba Laptop</a></li>
-                        <li><a href="">LG Laptop </a></li>
-                        <li><a href="">HP Laptop</a></li>
-                        <li><a href="">Notebook</a></li>
-                    </ul>
-                   
-                    
-                        
-                    <ul class="links">
-                        <li><strong class="title">WATCHES:</strong></li>
-                        <li><a href="">FCUK Watches</a></li>
-                        <li><a href="">Titan Watches  </a></li>
-                        <li><a href="">  Casio Watches </a></li>
-                        <li><a href="">  Fastrack Watches </a></li>
-                        <li><a href="">Timex Watches </a></li>
-                        <li><a href="">Fossil Watches</a></li>
-                        <li><a href="">Diesel Watches  </a></li>
-                        <li><a href=""> Luxury Watches</a></li>
-                    </ul>
-                   
-                    
-                    <ul class="links">
-                        <li><strong class="title">FOOTWEAR: </strong></li>
-                        <li><a href="">Shoes  </a></li>
-                        <li><a href="">Casual Shoes </a></li>
-                        <li><a href=""> Sports Shoes </a></li>
-                        <li><a href="">Formal Shoes </a></li>
-                        <li><a href=""> Adidas Shoes  </a></li>
-                        <li><a href="">Gas Shoes</a></li>
-                        <li><a href=""> Puma Shoes</a></li>
-                        <li><a href="">Reebok Shoes </a></li>
-                        <li><a href="">Woodland Shoes  </a></li>
-                        <li><a href="">Red tape Shoes</a></li>
-                        <li><a href="">Nike Shoes</a></li>
-                    </ul>
-                    
                 </div>
 
                 <div class="footer-bottom">
@@ -2115,17 +1607,16 @@
                 </div>
 
             </div>
-
-        </footer><!-- end FOOTER --> 		
-		
+        </footer><!-- end FOOTER -->        
+        
         <!--back-to-top  -->
         <a href="#" class="back-to-top">
             <i aria-hidden="true" class="fa fa-angle-up"></i>
         </a>
         
-	</div>
+    </div>
 
-	<!-- jQuery -->    
+    <!-- jQuery -->    
     <script type="text/javascript" src="js/jquery.min.js"></script>
 
     <!-- sticky -->
